@@ -1,2 +1,2 @@
-# VladyslavSoloviov.github.io
+# MrNightingale.github.io
 My GoIT Lessons
