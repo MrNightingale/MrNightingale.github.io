@@ -1,0 +1,138 @@
+body {
+  margin: 0 auto;
+  width: 800px;
+}
+.margin {
+  margin: 0;
+}
+.display-position {
+  display: inline-block;
+  position: absolute;
+}
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+.width {
+  width: 800px;
+}
+#header img {
+  width: 800px;
+}
+#header p {
+  margin: 0;
+}
+#features {
+  height: 315px;
+  background-color: grey;
+}
+#gallery {
+  height: 310px;
+  background-color: darkolivegreen;
+}
+#video {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+#video img {
+  width: 800px;
+}
+#video a img {
+  width: 63px;
+}
+#video #technology {
+  font-size: 26px;
+  font-weight: 300;
+}
+#video #action {
+  font-weight: 700;
+}
+#video p {
+  font-size: 10px;
+  font-weight: 100;
+}
+#video .video_text {
+  display: inline-block;
+  position: absolute;
+  top: 86px;
+  left: 368.5px;
+  right: 368.5px;
+  bottom: 170px;
+}
+#video .video_text #technology {
+  display: inline-block;
+  position: absolute;
+  margin: 12px 0;
+  width: 410px;
+  left: -170px;
+}
+#video .video_text #content {
+  display: inline-block;
+  position: absolute;
+  width: 390px;
+  left: -150px;
+  top: 88px;
+  color: #e4ebee;
+}
+#testimonials {
+  height: 206px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e7e7e7;
+  font-family: 'Lato', sans-serif;
+}
+#testimonials > p {
+  font-weight: 900;
+  font-size: 19px;
+  text-align: center;
+}
+#testimonials img {
+  width: 75px;
+  padding-left: 263px;
+  float: left;
+}
+#testimonials .info {
+  font-size: 7px;
+  color: #4bcaff;
+  font-weight: 700;
+  width: 180px;
+  padding: 10px 260px 0 359px;
+  line-height: 1.5;
+  word-spacing: 1px;
+}
+#testimonials .info p {
+  text-align: left;
+}
+#testimonials .info p #name {
+  font-style: italic;
+  padding-left: 147px;
+}
+#testimonials .info p #company {
+  font-style: italic;
+  padding-left: 117px;
+}
+#download {
+  height: 110px;
+  background-color: #414042;
+}
+#download p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 14px 0 14px 0;
+  margin: 0;
+}
+#download #button {
+  padding: 0;
+}
+#download img {
+  width: 110px;
+}
+#contact img {
+  width: 800px;
+}
+#footer {
+  height: 57px;
+  background-color: #414042;
+}
