@@ -111,6 +111,23 @@ body {
   font-style: italic;
   padding-left: 117px;
 }
+#testimonials .navigation-bars {
+  padding: 25px 0 0 355px;
+}
+#testimonials .navigation-bars .navbar-highlight {
+  height: 3px;
+  width: 26px;
+  border: 1px solid #f9f9f9;
+  background-color: #4bcaff;
+  display: inline-block;
+}
+#testimonials .navigation-bars .navbar {
+  height: 3px;
+  width: 26px;
+  border: 1px solid #f9f9f9;
+  background-color: #c1eafb;
+  display: inline-block;
+}
 #download {
   height: 110px;
   background-color: #414042;
