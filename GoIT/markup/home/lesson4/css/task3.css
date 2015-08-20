@@ -1,5 +1,6 @@
 ul {
     margin: 0 auto;
+    width: 450px;
 }
 
 li {
@@ -26,7 +27,7 @@ span {
 }
 
 li.border:hover,
-li.border a:hover {
+li.border:hover a {
     background-color: #a13bcf;
     border-color: #a13bcf;
     color: #fff;
