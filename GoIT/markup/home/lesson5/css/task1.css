@@ -1,7 +1,7 @@
 .nav {
     background-color: #1aa4ff;
     padding: 11px 0;
-    width: 100%;
+    position: relative;
 }
 
 ul {
@@ -29,16 +29,19 @@ a:hover {
 
 li ul {
     position: absolute;
-    top: 53px;
-    left: 8px;
+    top: 45px;
+    left: 0px;
     display: none;
     font-family: sans-serif;
     font-size: 14px;
-    padding-top: 11px;
-    padding-bottom: 11px;
+    padding: 11px 0;
     width: 100%;
     box-shadow: 0 3px 4px -2px #B7B5B5;
     background-color: #eee;
+}
+
+.first-li {
+    padding-left: 40px;
 }
 
 li ul li a {
