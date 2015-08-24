@@ -1,7 +1,6 @@
 .container {
     margin: 0 auto;
     width: 290px;
-    height: 460px;
     border: 4px solid #ee8129;
     border-radius: 5px;
     box-shadow: 0 0 5px 0 grey;
@@ -89,6 +88,7 @@ input {
     font-weight: bold;
     width: 250px;
     padding: 10px 0;
+    margin-bottom: 32px;
     border: 1px solid #ee8129;
     border-radius: 4px;
     box-shadow: 0 3px 0 0 #b3560b;
