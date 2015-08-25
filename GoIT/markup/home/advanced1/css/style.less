@@ -16,6 +16,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.black {
+  font-weight: 700;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
 .width {
   width: 800px;
 }
@@ -33,13 +45,88 @@ body {
 }
 
 #features {
-  height: 315px;
-  background-color: grey;
+  background-color: #f9f9f9;
+  .lato;
+
+  h1 {
+    .black;
+  }
+
+  .title {
+  text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+
+    p {
+      .light;
+      margin: -1px 0 40px;
+      font-size: 11px;
+    }
+
+  }
+
+  ul {
+    margin-bottom: 0;
+    padding: 0 0 40px 84px;
+    border-bottom: 1px solid #e7e7e7;
+  }
+
+  ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 47px;
+
+    .blue-border {
+      border: 20px solid #4bcaff;
+      border-radius: 50%;
+      background-color: #4bcaff;
+      width: 45px;
+      height: 45px;
+      margin: 0 0 17px 19px;
+
+      img {
+        height: 38px;
+      }
+
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 8px;
+      margin-bottom: 9px;
+    }
+
+    p {
+      .regular;
+      font-size: 7px;
+      width: 120px;
+      line-height: 12px;
+    }
+
+  }
+
+  li:hover {
+
+    .blue-border {
+      background-color: #414042;
+      border-color: #414042;
+    }
+
+    h1 {
+      color: #4bcaff;
+    }
+
+  }
+
 }
 
 #gallery {
   height: 310px;
-  background-color: darkolivegreen;
+  background-color: #fff;
 }
 
 #video {

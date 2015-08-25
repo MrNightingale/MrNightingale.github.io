@@ -12,6 +12,15 @@ body {
 .lato {
   font-family: 'Lato', sans-serif;
 }
+.black {
+  font-weight: 700;
+}
+.regular {
+  font-weight: 400;
+}
+.light {
+  font-weight: 300;
+}
 .width {
   width: 800px;
 }
@@ -22,12 +31,67 @@ body {
   margin: 0;
 }
 #features {
-  height: 315px;
-  background-color: grey;
+  background-color: #f9f9f9;
+  font-family: 'Lato', sans-serif;
+}
+#features h1 {
+  font-weight: 700;
+}
+#features .title {
+  text-align: center;
+}
+#features .title h1 {
+  margin: 0;
+  font-size: 20px;
+  padding-top: 20px;
+}
+#features .title p {
+  font-weight: 300;
+  margin: -1px 0 40px;
+  font-size: 11px;
+}
+#features ul {
+  margin-bottom: 0;
+  padding: 0 0 40px 84px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#features ul li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 47px;
+}
+#features ul li .blue-border {
+  border: 20px solid #4bcaff;
+  border-radius: 50%;
+  background-color: #4bcaff;
+  width: 45px;
+  height: 45px;
+  margin: 0 0 17px 19px;
+}
+#features ul li .blue-border img {
+  height: 38px;
+}
+#features ul li h1 {
+  text-transform: uppercase;
+  font-size: 8px;
+  margin-bottom: 9px;
+}
+#features ul li p {
+  font-weight: 400;
+  font-size: 7px;
+  width: 120px;
+  line-height: 12px;
+}
+#features li:hover .blue-border {
+  background-color: #414042;
+  border-color: #414042;
+}
+#features li:hover h1 {
+  color: #4bcaff;
 }
 #gallery {
   height: 310px;
-  background-color: darkolivegreen;
+  background-color: #fff;
 }
 #video {
   font-family: 'Lato', sans-serif;
