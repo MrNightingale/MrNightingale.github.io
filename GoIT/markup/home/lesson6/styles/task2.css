@@ -1,0 +1,19 @@
+body {
+    background: url('../i/background.png') no-repeat;
+    width: 1400px;
+}
+
+.testimonials {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #3170a8;
+    margin: 50px auto 40px;
+}
+
+h1 span {
+    color: #ee8129;
+}

@@ -1,0 +1,162 @@
+
+.pricing {
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    width: 882px;
+    margin: 0 auto;
+}
+
+.containers {
+    display: flex;
+    display: -webkit-flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 18px auto 58px;
+}
+
+.blue-container {
+    width: 290px;
+    border: 1px solid #e8eaec;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.best-value {
+    position: relative;
+    width: 290px;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 grey;
+    z-index: 1;
+}
+
+.standard {
+    margin-right: -5px;
+}
+
+.ultimate {
+    margin-left: -5px;
+}
+
+.header {
+    color: #fff;
+}
+
+.standard .header {
+    background-color: #37c2d3;
+    height: 63px;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.best-value .header {
+    background-color: #ee8129;
+    height: 73px;
+}
+
+.ultimate .header {
+    background-color: #1cb79a;
+    height: 63px;
+    border-radius: 5px 5px 0 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.header h2 {
+    padding: 23px 0 0 83px;
+    margin: 0;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h2 {
+    margin-bottom: 12px;
+}
+
+div.price p {
+    margin: 0 0 19px 0;
+}
+
+.currency {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: 41px;
+}
+
+.value {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.month {
+    font-size: 18px;
+    vertical-align: -8px;
+}
+
+ul {
+    margin: 0 15px 11px 15px;
+    width: 260px;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 11px 0 8px 0;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+li:before {
+    content: '';
+    width: 14px;
+    height: 15px;
+    float: left;
+    margin: 0 16px 0 32px;
+    background: url('../i/check.png') 0 0;
+
+}
+
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+input.orange {
+    background-color: #ee8129;
+    color: #fff;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px 0;
+    margin-bottom: 32px;
+    border: 1px solid #ee8129;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #b3560b;
+}
+
+input.blue {
+    background-color: #3371a6;
+    color: #fff;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px 0;
+    border: 1px solid #3371a6;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #16436a;
+}
+
+input:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
