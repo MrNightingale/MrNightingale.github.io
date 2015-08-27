@@ -10,7 +10,7 @@ body {
 
 ul {
     margin: 0 auto;
-    font-family: Impact, 'Arial Black', 'sans serif';
+    font-family: Impact, 'Arial Black', sans-serif;
     font-size: 19px;
 
 }
@@ -34,7 +34,7 @@ a:hover {
 li ul {
     position: absolute;
     top: 45px;
-    left: 0px;
+    left: 0;
     display: none;
     font-family: sans-serif;
     font-size: 14px;
