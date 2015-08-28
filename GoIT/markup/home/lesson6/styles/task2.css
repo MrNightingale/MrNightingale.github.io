@@ -1,19 +1,97 @@
 body {
-    background: url('../i/background.png') no-repeat;
-    width: 1400px;
+    margin: 0;
 }
 
 .testimonials {
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    background: url('../i/background.png') no-repeat;
+    background-size: cover;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 39px;
     color: #3170a8;
-    margin: 50px auto 40px;
+    padding: 50px 0 40px 0;
+    margin: 0;
+    text-align: center;
 }
 
 h1 span {
     color: #ee8129;
+}
+
+.customers {
+    min-width: 1400px;
+    padding-bottom: 78px;
+    overflow: hidden;
+}
+
+.customer-left,
+.customer-right {
+    float: left;
+    height: 98px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.customer-left {
+    width: 35%;
+    margin-left: 13.57%;
+    margin-right: 1.43%;
+}
+
+.customer-right {
+    width: 35%;
+    margin-left: 1.43%;
+    margin-right: 13.57%;
+}
+
+.comment {
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 74%;
+    vertical-align: top;
+    margin-left: 22px;
+}
+
+.comment::before {
+    content: '';
+    float: left;
+    margin: 35px 0 0 -26px;
+    border-top: 13px solid #15191f;
+    border-bottom: 13px solid #15191f;
+    border-right: 13px solid #f7f7f7;
+    border-left: 13px solid #15191f;
+}
+
+.header {
+    padding: 8px 15px 9px 15px;
+}
+
+.header h2 {
+    display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    color: #3070a8;
+    margin: 0;
+}
+
+.header h2:nth-child(2) {
+    float: right;
+    margin: 4px 7px 0 0;
+}
+
+.name::before {
+    content: '- ';
+}
+
+.comment p {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    padding: 11px 0 18px;
+    margin: 0 15px;
+    border-top: 1px dotted #666;
+    word-spacing: 2px;
 }
