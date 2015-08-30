@@ -1,0 +1,348 @@
+body {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header h1 {
+    margin: 33px 115px 31px 187px;
+    display: inline-block;
+    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 39px;
+    color: #ee8129;
+}
+
+.header h1 span {
+    text-transform: uppercase;
+    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #3070a8;
+}
+
+.header ul {
+    display: inline-block;
+}
+
+.header ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: 66px 16px 33px 19px;
+    text-decoration: none;
+    color: #adadad;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #3070a8;
+    border-bottom: 4px solid #3070a8;
+}
+
+/* Banner */
+.banner {
+    background: url('../i/banner.png') no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1 {
+    width: 880px;
+    padding: 132px 0 19px;
+    margin: 0 260px 0 260px;
+    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.banner h1 span {
+    text-transform: none;
+    font-weight: 400;
+    word-spacing: 10px;
+    font-size: 32px;
+}
+
+.banner h2 {
+    width: 585px;
+    margin: 0 408px 47px 408px;
+    font: italic 20px Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+.banner input {
+    padding: 17px 64px;
+    border: 1px solid rgba(255,255,255,0.5);
+    margin: 0 583px 107px 569px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font: 16px 'Open Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+/* Pricing */
+.pricing {
+    font-family: 'Futura PT', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    width: 855px;
+    margin: 0 auto;
+}
+
+.pricing h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 67px 0 58px 0;
+    margin: 0;
+}
+
+.containers {
+    display: flex;
+    display: -webkit-flex;
+    padding-bottom: 75px;
+}
+
+.blue-container {
+    width: 290px;
+    border: 1px solid #e8eaec;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.best-value {
+    position: relative;
+    width: 290px;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 grey;
+    z-index: 1;
+}
+
+.standard {
+    margin-right: -5px;
+}
+
+.ultimate {
+    margin-left: -5px;
+}
+
+.container-header {
+    color: #fff;
+}
+
+.standard .container-header {
+    background-color: #37c2d3;
+    height: 63px;
+    border-radius: 5px 5px 0 0;
+}
+
+.best-value .container-header {
+    background-color: #ee8129;
+    height: 73px;
+}
+
+.ultimate .container-header {
+    background-color: #1cb79a;
+    height: 63px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-header h2 {
+    font-size: 24px;
+    padding: 23px 0 0 83px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+div.price p {
+    margin: 0 0 13px 0;
+}
+
+.currency {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: 41px;
+}
+
+.value {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.month {
+    font-size: 18px;
+    vertical-align: -8px;
+}
+
+.price ul {
+    margin: 0 15px 17px 15px;
+    width: 260px;
+    padding: 0;
+}
+
+.price li {
+    list-style-type: none;
+    padding: 11px 0 6px 0;
+    font: bold 15px Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    color: #888c94;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.price li:before {
+    content: '';
+    width: 14px;
+    height: 15px;
+    float: left;
+    margin: 0 16px 0 32px;
+    background: url('../i/check.png') 0 0;
+
+}
+
+.price li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+.price li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+.price input.orange {
+    background-color: #ee8129;
+    color: #fff;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px 0;
+    margin-bottom: 32px;
+    border: 1px solid #ee8129;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #b3560b;
+    text-transform: uppercase;
+}
+
+.price input.blue {
+    background-color: #3371a6;
+    color: #fff;
+    font-weight: bold;
+    width: 250px;
+    padding: 10px 0;
+    border: 1px solid #3371a6;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 0 #16436a;
+    text-transform: uppercase;
+}
+
+.price input:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+/* Testimonials */
+.testimonials {
+    font-family: 'Open Sans', sans-serif;
+    background: url('../i/background.png') no-repeat;
+    background-size: cover;
+}
+
+.testimonials h1 {
+    font: 39px 'Futura PT', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #3170a8;
+    padding: 50px 0 40px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.testimonials h1 span {
+    color: #ee8129;
+    font-weight: normal;
+}
+
+.customers {
+    padding-bottom: 62px;
+    overflow: hidden;
+}
+
+.customer-left,
+.customer-right {
+    float: left;
+    height: 98px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.customer-left {
+    width: 35%;
+    margin-left: 13.57%;
+    margin-right: 1.43%;
+}
+
+.customer-right {
+    width: 35%;
+    margin-left: 1.43%;
+    margin-right: 13.57%;
+}
+
+.comment {
+    display: inline-block;
+    background-color: #f7f7f7;
+    width: 74%;
+    vertical-align: top;
+    margin-left: 22px;
+}
+
+.comment::before {
+    content: '';
+    float: left;
+    margin: 35px 0 0 -26px;
+    border-top: 13px solid #15191f;
+    border-bottom: 13px solid #15191f;
+    border-right: 13px solid #f7f7f7;
+    border-left: 13px solid #15191f;
+}
+
+.testimonials-header {
+    padding: 8px 15px 9px 15px;
+}
+
+.testimonials-header h2 {
+    display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    color: #3070a8;
+    margin: 0;
+}
+
+.testimonials-header h2:nth-child(2) {
+    float: right;
+    margin: 4px 7px 0 0;
+}
+
+.name::before {
+    content: '- ';
+}
+
+.comment p {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    padding: 11px 0 18px;
+    margin: 0 15px;
+    border-top: 1px dotted #666;
+    word-spacing: 2px;
+}
