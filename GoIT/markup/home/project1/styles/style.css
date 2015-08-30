@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url(../fonts/FuturaBTBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url(../fonts/FuturaBTBook.ttf);
+    font-weight: normal;
+}
+
 body {
     width: 1400px;
     margin: 0 auto;
@@ -5,19 +17,17 @@ body {
 
 /* Header */
 .header h1 {
-    margin: 33px 115px 31px 187px;
+    margin: 33px 115px 36px 187px;
     display: inline-block;
-    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
+    font: 39px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
     font-weight: normal;
-    font-size: 39px;
     color: #ee8129;
 }
 
 .header h1 span {
     text-transform: uppercase;
-    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
-    font-weight: 700;
-    font-size: 44px;
+    font: 35px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
     color: #3070a8;
 }
 
@@ -31,11 +41,10 @@ body {
 }
 
 .menu a {
-    padding: 66px 16px 33px 19px;
+    padding: 66px 16px 37px 19px;
     text-decoration: none;
     color: #adadad;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font: 14px 'Open Sans', sans-serif;
 }
 
 .menu a:hover {
@@ -52,19 +61,17 @@ body {
 
 .banner h1 {
     width: 880px;
-    padding: 132px 0 19px;
+    padding: 135px 0 19px;
     margin: 0 260px 0 260px;
-    font-family: 'Futura PT', 'Trebuchet MS', Arial, sans-serif;
-    font-size: 50px;
+    font: 48px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .banner h1 span {
     text-transform: none;
-    font-weight: 400;
     word-spacing: 10px;
-    font-size: 32px;
+    font: 32px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
 }
 
 .banner h2 {
@@ -87,7 +94,6 @@ body {
 
 /* Pricing */
 .pricing {
-    font-family: 'Futura PT', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
     width: 855px;
     margin: 0 auto;
 }
@@ -95,7 +101,7 @@ body {
 .pricing h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
+    font: 30px 'Trebuchet MS', Arial, sans-serif;
     padding: 67px 0 58px 0;
     margin: 0;
 }
@@ -153,7 +159,7 @@ body {
 }
 
 .container-header h2 {
-    font-size: 24px;
+    font: bold 24px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
     padding: 23px 0 0 83px;
     margin: 0;
     text-transform: uppercase;
@@ -164,7 +170,7 @@ body {
 }
 
 .price h2 {
-    font-size: 24px;
+    font: 24px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
     margin-bottom: 12px;
     text-transform: uppercase;
 }
@@ -174,18 +180,16 @@ div.price p {
 }
 
 .currency {
-    font-size: 20px;
-    font-weight: bold;
-    vertical-align: 41px;
+    font: bold 20px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
+    vertical-align: 44px;
 }
 
 .value {
-    font-size: 72px;
-    font-weight: bold;
+    font: bold 72px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
 }
 
 .month {
-    font-size: 18px;
+    font: 18px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
     vertical-align: -8px;
 }
 
@@ -225,7 +229,7 @@ div.price p {
 .price input.orange {
     background-color: #ee8129;
     color: #fff;
-    font-weight: bold;
+    font: bold 14px 'Open Sans', sans-serif;
     width: 250px;
     padding: 10px 0;
     margin-bottom: 32px;
@@ -238,7 +242,7 @@ div.price p {
 .price input.blue {
     background-color: #3371a6;
     color: #fff;
-    font-weight: bold;
+    font: bold 14px 'Open Sans', sans-serif;
     width: 250px;
     padding: 10px 0;
     border: 1px solid #3371a6;
@@ -260,7 +264,7 @@ div.price p {
 }
 
 .testimonials h1 {
-    font: 39px 'Futura PT', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+    font: 39px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
     color: #3170a8;
     padding: 50px 0 40px 0;
@@ -270,6 +274,7 @@ div.price p {
 
 .testimonials h1 span {
     color: #ee8129;
+    font-family: 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
     font-weight: normal;
 }
 
