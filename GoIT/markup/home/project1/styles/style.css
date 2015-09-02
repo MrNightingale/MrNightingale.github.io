@@ -92,6 +92,60 @@ body {
 
 }
 
+/* Portfolio */
+.portfolio-header {
+    padding-top: 62px;
+    margin: 0 0 75px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #41525c;
+    font: bold 30px 'Trebuchet MS', Arial, sans-serif;
+}
+
+.portfolio-wrapper {
+    padding-bottom: 37px;
+    min-width: 1400px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.portfolio-block-left,
+.portfolio-block-center,
+.portfolio-block-right {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+
+.portfolio-block-left {
+    width: 26.7%;
+    margin-left: 10%;
+}
+
+.portfolio-block-center {
+    width: 26.6%;
+}
+
+.portfolio-block-right {
+    width: 26.7%;
+    margin-right: 10%;
+}
+
+.portfolio-block-header {
+    margin: 18px 0 16px;
+    text-transform: uppercase;
+    color: #3070a8;
+    font: 30px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.portfolio-block-paragraph {
+    color: #a7a7a7;
+    font: 400 14px/1.8 'Open Sans', sans-serif;
+    width: 312px;
+    margin-left: 40px;
+    word-spacing: 3px
+}
+
 /* Services */
 .services {
     background: url('../i/services-bg.png') no-repeat;
@@ -100,7 +154,7 @@ body {
 
 .services-wrapper {
     width: 685px;
-    padding: 0 0 75px 186px;
+    padding: 0 0 57px 186px;
 }
 
 .services-header {
