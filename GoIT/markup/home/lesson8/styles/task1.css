@@ -1,0 +1,33 @@
+.search-form {
+    height: 50px;
+    width: 50%;
+    min-width: 550px;
+    margin: 0 auto;
+    padding: 5px 0 0 6px;
+    background-color: #fc6;
+}
+
+#search-area {
+    height: 25px;
+    width: 90%;
+}
+
+#find {
+    height: 25px;
+    width: 8%;
+    padding: 0;
+    margin-right: 7px;
+}
+
+#check {
+    margin: 7px 0 0;
+    vertical-align: sub;
+}
+
+.search-form::after {
+    content: '';
+    float: right;
+    margin: -50px -42px 0 0;
+    border: 27px solid transparent;
+    border-left: 15px solid #ffcc66;
+}
