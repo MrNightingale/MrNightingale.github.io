@@ -11,13 +11,18 @@
 }
 
 body {
-    width: 1400px;
+    min-width: 1023px;
     margin: 0 auto;
 }
 
 /* Header */
+.header-wrapper {
+    width: 1023px;
+    margin: 0 auto;
+}
+
 .header h1 {
-    margin: 33px 115px 36px 187px;
+    margin: 33px 112px 36px 0;
     display: inline-block;
     font: 39px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
     font-weight: normal;
@@ -55,14 +60,19 @@ body {
 /* Banner */
 .banner {
     background: url('../i/banner.png') no-repeat;
+    background-size: cover;
     text-align: center;
     color: #fff;
+}
+.banner-wrapper {
+    width: 1023px;
+    margin: 0 auto;
 }
 
 .banner h1 {
     width: 880px;
     padding: 135px 0 19px;
-    margin: 0 260px 0 260px;
+    margin: 0 0 0 65px;
     font: 48px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -70,20 +80,20 @@ body {
 
 .banner h1 span {
     text-transform: none;
-    word-spacing: 10px;
+    word-spacing: 15px;
     font: 32px 'Futura Bk BT', 'Trebuchet MS', Arial, sans-serif;
 }
 
 .banner h2 {
     width: 585px;
-    margin: 0 408px 47px 408px;
+    margin: 0 0 47px 213px;
     font: italic 20px Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
 
 .banner input {
     padding: 17px 64px;
     border: 1px solid rgba(255,255,255,0.5);
-    margin: 0 583px 107px 569px;
+    margin: 0 9px 107px 0;
     background-color: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -93,6 +103,11 @@ body {
 }
 
 /* Portfolio */
+.portfolio-wrapper {
+    width: 1023px;
+    margin: 0 auto;
+}
+
 .portfolio-header {
     padding-top: 62px;
     margin: 0 0 75px;
@@ -102,9 +117,8 @@ body {
     font: bold 30px 'Trebuchet MS', Arial, sans-serif;
 }
 
-.portfolio-wrapper {
-    padding-bottom: 37px;
-    min-width: 1400px;
+.portfolio-block-wrapper {
+    padding-bottom: 50px;
     white-space: nowrap;
     text-align: center;
 }
@@ -118,17 +132,15 @@ body {
 }
 
 .portfolio-block-left {
-    width: 26.7%;
-    margin-left: 10%;
+    width: 33.3%;
 }
 
 .portfolio-block-center {
-    width: 26.6%;
+    width: 33.3%;
 }
 
 .portfolio-block-right {
-    width: 26.7%;
-    margin-right: 10%;
+    width: 33.3%;
 }
 
 .portfolio-block-header {
@@ -141,20 +153,21 @@ body {
 .portfolio-block-paragraph {
     color: #a7a7a7;
     font: 400 14px/1.8 'Open Sans', sans-serif;
-    width: 312px;
-    margin-left: 40px;
+    width: 325px;
+    margin: 0;
     word-spacing: 3px
 }
 
 /* Services */
 .services {
     background: url('../i/services-bg.png') no-repeat;
-
+    background-size: cover;
 }
 
 .services-wrapper {
-    width: 685px;
-    padding: 0 0 57px 186px;
+    width: 1023px;
+    margin: 0 auto;
+    padding: 0 0 57px 0;
 }
 
 .services-header {
@@ -163,12 +176,14 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 79px 0 11px;
+    width: 685px;
 }
 
 .services-subhead {
     font: 400 italic 19px 'Open Sans', sans-serif;
     color: rgba(255,255,255,0.9);
     margin: 0 0 33px;
+    width: 685px;
 }
 
 .services ul {
@@ -202,7 +217,7 @@ body {
 
 /* Pricing */
 .pricing {
-    width: 855px;
+    width: 848px;
     margin: 0 auto;
 }
 
@@ -217,7 +232,7 @@ body {
 .containers {
     display: flex;
     display: -webkit-flex;
-    padding-bottom: 75px;
+    padding-bottom: 70px;
 }
 
 .blue-container {
@@ -367,17 +382,23 @@ div.price p {
 /* Testimonials */
 .testimonials {
     font-family: 'Open Sans', sans-serif;
-    background: url('../i/background.png') no-repeat;
+    background: url('../i/testimonials-background.png') no-repeat;
     background-size: cover;
+}
+
+.testimonials-wrapper {
+    width: 1023px;
+    margin: 0 auto;
 }
 
 .testimonials h1 {
     font: 39px 'Futura Md BT', 'Trebuchet MS', Arial, sans-serif;
     text-transform: uppercase;
     color: #3170a8;
-    padding: 50px 0 40px 0;
+    padding: 47px 0 44px 0;
     margin: 0;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .testimonials h1 span {
@@ -387,7 +408,7 @@ div.price p {
 }
 
 .customers {
-    padding-bottom: 62px;
+    padding-bottom: 59px;
     overflow: hidden;
 }
 
@@ -397,18 +418,29 @@ div.price p {
     height: 98px;
     overflow: hidden;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .customer-left {
-    width: 35%;
-    margin-left: 13.57%;
-    margin-right: 1.43%;
+    width: 48%;
+    margin-right: 2%;
 }
 
 .customer-right {
-    width: 35%;
-    margin-left: 1.43%;
-    margin-right: 13.57%;
+    width: 48%;
+    margin-left: 2%;
+}
+
+.customer-left img {
+    position: absolute;
+    top: 0;
+    left: 3px;
+}
+
+.customer-right img {
+    position: absolute;
+    top: 0;
+    left: 3px;
 }
 
 .comment {
@@ -416,7 +448,7 @@ div.price p {
     background-color: #f7f7f7;
     width: 74%;
     vertical-align: top;
-    margin-left: 22px;
+    margin-left: 127px;
 }
 
 .comment::before {
@@ -454,8 +486,107 @@ div.price p {
     font-size: 13px;
     color: #666;
     text-align: left;
-    padding: 11px 0 18px;
+    padding: 6px 0 18px;
     margin: 0 15px;
     border-top: 1px dotted #666;
     word-spacing: 2px;
+}
+
+/* Contacts */
+.contacts {
+    font: 600 14px 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    background: url('../i/contact-map.png') right no-repeat;
+}
+
+.contacts-wrapper {
+    width: 1023px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+}
+
+.contact-map {
+    float: right;
+}
+
+.contacts-wrapper p {
+    margin: 0;
+}
+
+.contacts-address {
+    position: relative;
+    padding: 40px 0 15px 64px;
+    line-height: 2.2;
+}
+
+.contacts-address img {
+    position: absolute;
+    top: 42px;
+    left: 7px;
+}
+
+.contacts-phone {
+    position: relative;
+    padding: 0 0 15px 63px;
+}
+
+.contacts-phone img {
+    position: absolute;
+    top: -2px;
+    left: 6px;
+}
+
+.contacts-email {
+    position: relative;
+    padding: 0 0 38px 64px;
+}
+
+.contacts-email img {
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+
+.socials {
+    margin: 0;
+    padding: 0 0 0 4px;
+}
+
+.social {
+    display: inline-block;
+    padding-right: 17px;
+}
+
+/* Footer */
+.footer {
+    background-color: #3070a8;
+    font: 400 14px 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-wrapper {
+    width: 1023px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-company {
+    padding: 25px 0 11px;
+}
+
+.footer-company span {
+    font-weight: 600;
+}
+
+.footer-design {
+    padding-bottom: 30px;
+}
+
+.footer-design span {
+    font-weight: 600;
+    color: #000;
 }

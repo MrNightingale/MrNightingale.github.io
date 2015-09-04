@@ -8,40 +8,46 @@
 </head>
 <body>
 <div class="header">
-    <h1 id="company">Company <span>name</span></h1>
-    <ul class="menu">
-        <li><a href="#company">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#prices">Pricing</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="header-wrapper">
+        <h1 id="company">Company <span>name</span></h1>
+        <ul class="menu">
+            <li><a href="#company">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#prices">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 </div>
 <div class="banner">
-    <h1 id="about"><span>We are specialist in</span><br/>
-        Responsive designs, Stationary
-        And wordpress Themes</h1>
-    <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</h2>
-    <input type="button" value="button name"/>
+    <div class="banner-wrapper">
+        <h1 id="about"><span>We are specialist in</span><br/>
+            Responsive designs, Stationary
+            And wordpress Themes</h1>
+        <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</h2>
+        <input type="button" value="button name"/>
+    </div>
 </div>
 <div class="portfolio">
-    <h1 class="portfolio-header" id="portfolio">Lorem Ipsum is simply dummy text of the printing</h1>
     <div class="portfolio-wrapper">
-        <div class="portfolio-block-left">
-            <img src="i/portfolio-protect.png" alt="Protect"/>
-            <h2 class="portfolio-block-header">Protect</h2>
-            <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
-        </div>
-        <div class="portfolio-block-center">
-            <img src="i/portfolio-alert.png" alt="Alert"/>
-            <h2 class="portfolio-block-header">Alert</h2>
-            <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
-        </div>
-        <div class="portfolio-block-right">
-            <img src="i/portfolio-detect.png" alt="Detect"/>
-            <h2 class="portfolio-block-header">Detect</h2>
-            <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
+        <h1 class="portfolio-header" id="portfolio">Lorem Ipsum is simply dummy text of the printing</h1>
+        <div class="portfolio-block-wrapper">
+            <div class="portfolio-block-left">
+                <img src="i/portfolio-protect.png" alt="Protect"/>
+                <h2 class="portfolio-block-header">Protect</h2>
+                <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
+            </div>
+            <div class="portfolio-block-center">
+                <img src="i/portfolio-alert.png" alt="Alert"/>
+                <h2 class="portfolio-block-header">Alert</h2>
+                <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
+            </div>
+            <div class="portfolio-block-right">
+                <img src="i/portfolio-detect.png" alt="Detect"/>
+                <h2 class="portfolio-block-header">Detect</h2>
+                <p class="portfolio-block-paragraph">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -111,18 +117,19 @@
     </div>
 </div>
 <div class="testimonials">
-    <h1><span>What </span>client says</h1>
-    <div class="customers">
-        <div class="customer-left">
-            <img src="i/staciya-trollie.png" alt="Staciya Trollio"/>
-            <div class="comment">
-                <div class="testimonials-header">
-                    <h2 class="name">Staciya Trollie</h2>
-                    <h2 class="position">Customer</h2>
-                </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry.</p>
+    <div class="testimonials-wrapper">
+        <h1><span>What </span>client says</h1>
+        <div class="customers">
+            <div class="customer-left">
+        <img src="i/staciya-trollie.png" alt="Staciya Trollie"/>
+        <div class="comment">
+            <div class="testimonials-header">
+                <h2 class="name">Staciya Trollie</h2>
+                <h2 class="position">Customer</h2>
             </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry.</p>
         </div>
+    </div>
         <div class="customer-right">
             <img src="i/david-soul.png" alt="David Soul"/>
             <div class="comment">
@@ -134,10 +141,38 @@
             </div>
         </div>
     </div>
+    </div>
 </div>
 <div class="contacts" id="contact">
+    <div class="contacts-wrapper">
+        <!-- <img class="contact-map" src="i/contact-map.png" alt="Contact Map"/> -->
+        <p class="contacts-address"><img src="i/contact-address.png" alt="Address"/>
+            Iconic Graphics<br/>
+            123 Main Street<br/>
+            EastWest<br/>
+            LHR 54500
+        </p>
+        <p class="contacts-phone"><img src="i/contact-phone.png" alt="Phone"/>
+            012.345.6789
+        </p>
+        <p class="contacts-email"><img src="i/contact-email.png" alt="Email"/>
+            info@iconicgraphics.com
+        </p>
+        <ul class="socials">
+            <li class="social"><a href="#"><img src="i/contact-facebook.png" alt="Facebook"/></a>
+            </li>
+            <li class="social"><a href="#"><img src="i/contact-twitter.png" alt="Twitter"/></a>
+            </li>
+            <li class="social"><a href="#"><img src="i/contact-linkedin.png" alt="Linkedin"/></a>
+            </li>
+        </ul>
+    </div>
 </div>
 <div class="footer">
+    <div class="footer-wrapper">
+        <p class="footer-company">Copyright © 2014 <span>Company Name</span>. All rights reserved.</p>
+        <p class="footer-design">Designed by <span>IconicGraphics.com</span></p>
+    </div>
 </div>
 </body>
 </html>
