@@ -496,17 +496,15 @@ div.price p {
 .contacts {
     font: 600 14px 'Open Sans', sans-serif;
     color: rgba(0, 0, 0, 0.5);
-    /* Another variant how to add contact-map.png to the block
-    background: url('../i/contact-map.png') right no-repeat;
-    */
+    position: relative;
 }
 
 .image-wrapper {
     position: absolute;
-    min-width: 515px;
+    top: 0;
+    left: 50%;
     width: 50%;
     height: 345px;
-    padding: 0 0 0 50%;
 }
 
 .image-wrapper img {
