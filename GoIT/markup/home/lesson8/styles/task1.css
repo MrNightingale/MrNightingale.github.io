@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding: 5px 0 0 6px;
     background-color: #fc6;
+    position: relative;
 }
 
 #search-area {
@@ -21,13 +22,20 @@
 
 #check {
     margin: 7px 0 0;
-    vertical-align: sub;
+}
+
+.check-wrapper label {
+    position: absolute;
+    top: 32px;
+    left: 23px;
 }
 
 .search-form::after {
     content: '';
-    float: right;
     margin: -50px -42px 0 0;
-    border: 27px solid transparent;
-    border-left: 15px solid #ffcc66;
+    border: 27.5px solid transparent;
+    border-left: 14px solid #ffcc66;
+    position: absolute;
+    top: 50px;
+    left: 100%;
 }

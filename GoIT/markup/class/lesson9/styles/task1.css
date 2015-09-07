@@ -34,14 +34,6 @@ body {
     width: calc(100% - 115px);
 }
 
-/* .item {
-    vertical-align: top;
-    margin-left: 114px;
-    width: 75%;
-    display: inline-block;
-} */
-
-
 .testimonials-header {
     font-size: 22px;
     color: #637f83;
