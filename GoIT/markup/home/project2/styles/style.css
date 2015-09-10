@@ -28,46 +28,28 @@ body {
 /* Layout */
 .gallery {
     padding-bottom: 105px;
-}
-
-.line {
-    display: table;
+    width: 100%;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
-.line:after {
-    clear: both;
-    display: table;
-    content: '';
-}
-
-.left,
-.center,
-.right {
-    float: left;
-    width: 360px;
-    margin: 0 15px 0 15px;
-}
-
 @media (max-width: 1190px) {
-    .right {
-        float: none;
-        clear: both;
+    .gallery {
+        max-width: 780px;
     }
 }
 
 @media (max-width: 800px) {
-    .center,
-    .right {
-        float: none;
-        clear: both;
+    .gallery {
+        max-width: 390px;
     }
 }
 
 .item {
+    display: inline-block;
     position: relative;
     height: 260px;
-    margin-bottom: 30px;
+    margin: 0 10px 30px 15px;
 }
 
 .item img {
