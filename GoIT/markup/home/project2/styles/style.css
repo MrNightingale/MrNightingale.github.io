@@ -112,6 +112,14 @@ body {
 }
 
 .zoom-image img {
+    display: none;
+}
+
+.zoom-image img.active {
+    display: block;
+}
+
+.zoom-image img {
     width: 100%;
     height: 100%;
 }
