@@ -6,14 +6,11 @@ body {
 }
 
 /* Header Menu */
-.header {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
 .header-wrap {
     width: 932px;
     margin: 0 auto;
     padding-bottom: 143px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .menu {
@@ -276,6 +273,12 @@ body {
     border-radius: 3px;
 }
 
+.movie-button:hover {
+    box-shadow: 0 3px 0 #ffa605;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
 .movie-button-link {
     color: rgba(255,255,255,0.9);
     font: 17px 'Oxygen', sans-serif;
@@ -304,5 +307,56 @@ body {
 
 /* Nature */
 .nature-wrap {
-
+    width: 932px;
+    margin: 0 auto;
 }
+
+.nature-header {
+    font: 18px 'Oxygen', sans-serif;
+}
+
+.container {
+    min-width: 932px;
+    white-space: nowrap;
+}
+
+.nature-left,
+.nature-center,
+.nature-right {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    color: rgba(0,0,0,0.7);
+}
+
+.nature-left {
+    width: 32%;
+}
+
+.nature-center {
+    margin: 0 2%;
+    width: 32%;
+}
+
+.nature-right {
+    width: 32%;
+}
+
+.nature-name {
+    font: 14px 'Oxygen', sans-serif;
+    margin: 8px 0 5px 5px;
+    word-spacing: -1px
+}
+
+.nature-definition {
+    font: 11px Arial, sans-serif;
+    margin: 0 0 27px 2px;
+}
+
+.nature-description {
+    font: 12px Arial, sans-serif;
+    margin: 0 0 36px 2px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
