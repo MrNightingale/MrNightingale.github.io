@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="page">
 <!-- Header -->
 <div class="header">
     <div class="header-wrap">
@@ -118,30 +118,41 @@
         <h3 class="tabs-header">Tabbbs get your content in line</h3>
 
         <div class="tab">
-            <h4 class="tab-number">Tabbb One</h4>
-            <h5 class="tab-header">You content can be highlighted like this.</h5>
+            <div class="tab-number-wrap">
+                <h4 class="tab-number one active-tab">Tabbb One</h4>
+                <h4 class="tab-number two">Tabbb Two</h4>
+                <h4 class="tab-number three">Tabbb Three</h4>
+            </div>
+            <div class="tab-wrap one">
+                <h5 class="tab-header">You content can be highlighted like this.</h5>
+                <div class="tab-container">
+                    <div class="section-list">
+                        <ul class="section-list__tab-list">
+                            <li class="section-list__tab-list-item"><i class="fa fa-chevron-right"></i>Magna Porta</li>
+                            <li class="section-list__tab-list-item"><i class="fa fa-chevron-right"></i>Cras Amet Pharetra</li>
+                            <li class="section-list__tab-list-item"><i class="fa fa-chevron-right"></i>Ornare Dolor Pharetra</li>
+                            <li class="section-list__tab-list-item"><i class="fa fa-chevron-right"></i>Nibh Sit Elit</li>
+                            <li class="section-list__tab-list-item"><i class="fa fa-chevron-right"></i>Vanenatis Tortor Aenean</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content"><div class="tab-content-wrap"><img class="tab-content-image" src="i/tab-road.png" alt="Road"/></div>
+                        <div class="tab-content-container">
+                            <h6 class="tab-content-header">Type a Title</h6>
 
-            <div class="tab-wrap">
-                <div class="list">
-                    <ul class="tab-list">
-                        <li class="tab-list-item">Magna Porta</li>
-                        <li class="tab-list-item">Cras Amet Pharetra</li>
-                        <li class="tab-list-item">Ornare Dolor Pharetra</li>
-                        <li class="tab-list-item">Nibh Sit Elit</li>
-                        <li class="tab-list-item">Vanenatis Tortor Aenean</li>
-                    </ul>
-                </div>
-                <div class="tab-content"><img class="tab-content-image" src="i/tab-road.png" alt="Road"/>
-                    <h6 class="tab-content-header">Type a Title</h6>
+                            <p class="tab-content-text">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet magna.</p>
+                        </div>
+                    </div>
+                    <div class="tab-content"><div class="tab-content-wrap"><img class="tab-content-image" src="i/tab-ship.png" alt="Ship"/></div>
+                        <div class="tab-content-container">
+                            <h6 class="tab-content-header">Type a Title</h6>
 
-                    <p class="tab-content-text">Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet magna.</p>
-                </div>
-                <div class="tab-content"><img class="tab-content-image" src="i/tab-ship.png" alt="Ship"/>
-                    <h6 class="tab-content-header">Type a Title</h6>
-
-                    <p class="tab-content-text">Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="tab-content-text">Donec id elit non mi porta gravida at eget metus.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+          <!--  <div class="tab-wrap two"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur exercitationem expedita explicabo, illum impedit laudantium modi nemo odio porro provident repellat rerum soluta suscipit, tempora ut vitae voluptates voluptatum?</span><span>Dolore doloribus ex expedita ipsam nobis odio porro quis, similique. Asperiores assumenda cumque dolor et eveniet iste minus nam nemo nesciunt nostrum officia praesentium quae quibusdam, repudiandae sapiente sequi sint?</span><span>Accusamus adipisci aliquid amet atque blanditiis consequuntur dolor eaque eius explicabo, facere incidunt ipsa ipsam iste itaque iusto laboriosam minima modi quam quisquam recusandae repellat similique suscipit voluptate voluptatem voluptatibus.</span></p></div>
+            <div class="tab-wrap three"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam debitis dolor eaque earum fuga illum, nam nemo obcaecati omnis provident quam quo ratione repudiandae similique sint ullam voluptas!</span><span>Adipisci animi corporis earum id illo in incidunt iste necessitatibus nobis pariatur quisquam saepe sequi, totam unde voluptates. A ab alias autem dignissimos eius eos harum labore, quidem temporibus tenetur.</span></p></div> -->
         </div>
     </div>
 </div>  <!-- End of Tabs -->
@@ -151,39 +162,39 @@
         <div class="footer-left">
             <h4 class="footer-header">Single Menu Title</h4>
             <ul class="footer-list">
-                <li class="footer-list-item">Condimentum Etiam Purus</li>
-                <li class="footer-list-item">Quam Tristique Sem</li>
-                <li class="footer-list-item">Fusce Parturient</li>
-                <li class="footer-list-item">Tristique Tortor Condimentum</li>
-                <li class="footer-list-item">Magna Parturient Aenean</li>
-                <li class="footer-list-item">Tortor Nibh Etiam</li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Condimentum Etiam Purus</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Quam Tristique Sem</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Fusce Parturient</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Tristique Tortor Condimentum</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Magna Parturient Aenean</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Tortor Nibh Etiam</a></li>
             </ul>
         </div>
         <div class="footer-center">
             <h4 class="footer-header">Cursus Venenatis Mollis</h4>
             <ul class="footer-list">
-                <li class="footer-list-item">Condimentum Etiam Purus</li>
-                <li class="footer-list-item">Quam Tristique Sem</li>
-                <li class="footer-list-item">Fusce Parturient</li>
-                <li class="footer-list-item">Tristique Tortor Condimentum</li>
-                <li class="footer-list-item">Magna Parturient Aenean</li>
-                <li class="footer-list-item">Cursus Justo Fringilla</li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Condimentum Etiam Purus</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Quam Tristique Sem</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Fusce Parturient</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Tristique Tortor Condimentum</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Magna Parturient Aenean</a></li>
+                <li class="footer-list-item"><a class="footer-list-link" href="#">Cursus Justo Fringilla</a></li>
             </ul>
         </div>
         <div class="footer-right">
             <h4 class="footer-header">Latest Articles</h4>
-            <ul class="footer-list">
-                <li class="footer-list-item">
-                    Fusce Etiam Bibendum
-                    <div class="footer-list-item-text">Sed posuere consectetur est at lobortis.</div>
+            <ul class="footer-list articles">
+                <li class="footer-list-item articles-list">
+                    <a class="footer-list-link articles-link" href="#">Fusce Etiam Bibendum
+                    <div class="footer-list-item-text">Sed posuere consectetur est at lobortis.</div></a>
                 </li>
-                <li class="footer-list-item">
-                    Fusce Parturient
-                    <div class="footer-list-item-text">Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
+                <li class="footer-list-item articles-list">
+                    <a class="footer-list-link articles-link" href="#">Fusce Parturient
+                    <div class="footer-list-item-text">Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div></a>
                 </li>
-                <li class="footer-list-item">
-                    Magna Parturient Aenean
-                    <div class="footer-list-item-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+                <li class="footer-list-item articles-list">
+                    <a class="footer-list-link articles-link" href="#">Magna Parturient Aenean
+                    <div class="footer-list-item-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div></a>
                 </li>
             </ul>
         </div>

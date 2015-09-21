@@ -1,0 +1,6 @@
+.page {
+    max-width: 972px;
+    margin: 22px auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
