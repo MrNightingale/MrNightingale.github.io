@@ -12,16 +12,16 @@
 }
 
 .movie-image-ad {
-    display: none;
+    /*display: none;*/
     position: absolute;
     z-index: 1;
     bottom: 12px;
     left: 5px;
 }
 
-.movie-image:hover .movie-image-ad {
+/*.movie-image:hover .movie-image-ad {
     display: block;
-}
+}*/
 
 .movie-image-ad-text {
     display: inline-block;

@@ -35,15 +35,28 @@
     width: 32.4%;
 }
 
+.nature-subheader {
+    position: relative;
+}
+
+.nature-subheader-background {
+    position: absolute;
+    top: -8px;
+}
+
 .nature-name {
     font: 14px 'Oxygen', sans-serif;
     margin: 8px 0 5px 5px;
-    word-spacing: -1px
+    word-spacing: -1px;
+    position: relative;
+    z-index: 1;
 }
 
 .nature-definition {
     font: 11px Arial, sans-serif;
-    margin: 0 0 27px 2px;
+    margin: 0 0 27px 5px;
+    position: relative;
+    z-index: 1;
 }
 
 .nature-description {
