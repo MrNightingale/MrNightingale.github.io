@@ -1,6 +1,7 @@
 /* Footer Layout */
 .footer-wrap {
     width: 932px;
+    padding-bottom: 12px;
     margin: 0 auto;
     white-space: nowrap;
 }
@@ -81,4 +82,3 @@
     color: #aaa;
     margin: 2px 0 0 27px;
 }
-
