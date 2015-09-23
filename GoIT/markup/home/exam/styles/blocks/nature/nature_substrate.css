@@ -1,0 +1,18 @@
+/* Substrate */
+.container-pic {
+    height: 142px;
+    position: relative;
+}
+
+.container-pic-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    height: 142px;
+    width: 295px;
+}
+
+.container-pic:hover .container-pic-hover {
+    display: block;
+}

@@ -37,16 +37,28 @@
 
 .nature-subheader {
     position: relative;
+    width: 301px;
+    height: 55px;
+    background-color: #d6d6d6;
 }
 
-.nature-subheader-background {
-    position: absolute;
-    top: -8px;
+.nature-left:hover .nature-subheader {
+    background-color: #f1f1f1;
+}
+
+.nature-center:hover .nature-subheader {
+    background-color: #f1f1f1;
+}
+
+
+.nature-right:hover .nature-subheader {
+    background-color: #f1f1f1;
 }
 
 .nature-name {
     font: 14px 'Oxygen', sans-serif;
-    margin: 8px 0 5px 5px;
+    padding: 8px 0 5px 5px;
+    margin: 0;
     word-spacing: -1px;
     position: relative;
     z-index: 1;
@@ -61,12 +73,12 @@
 
 .nature-description {
     font: 12px Arial, sans-serif;
-    margin: 0 0 41px 2px;
+    margin: 0 0 0 2px;
     line-height: 1.5;
     text-align: justify;
 }
 
-.nature-image {
+.nature-image-wrap {
     height: 142px;
     padding: 2px;
     border: 1px solid rgba(0,0,0,0.1);

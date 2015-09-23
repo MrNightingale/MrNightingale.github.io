@@ -4,7 +4,9 @@
 @import "blocks/header/header_movie-image.css";
 @import "blocks/header/header_movie-text.css";
 @import "blocks/header/header_movie-button.css";
-@import "blocks/nature.css";
+@import "blocks/nature/nature.css";
+@import "blocks/nature/nature_triangles.css";
+@import "blocks/nature/nature_substrate.css";
 @import "blocks/tabs.css";
 @import "blocks/footer.css";
 

@@ -1,4 +1,7 @@
 /* Tabs Layout */
+.tabs {
+    margin-top: 166px;
+}
 .tabs-wrap {
     width: 932px;
     margin: 0 auto;
@@ -127,4 +130,15 @@
     font: 12px Arial, sans-serif;
     margin: 10px 10px;
     color: rgba(0,0,0,0.5);
+}
+
+.tabs-highlight {
+    background-color: #ffad19;
+    opacity: 0.5;
+}
+
+.tab-header-highlight {
+    background-color: #ffad19;
+    opacity: 0.5;
+    padding: 2px;
 }
