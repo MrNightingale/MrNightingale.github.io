@@ -4,6 +4,7 @@
     padding: 5px;
     border: 1px solid rgba(0,0,0,0.1);
     height: 188px;
+    width: 292px;
     margin-left: -7px;
     position: relative;
     background: -webkit-linear-gradient(top, #eee 0%, #f2f2f2 50%, #f6f6f6 100%);
@@ -11,10 +12,22 @@
     box-shadow: 0 23px 10px -22px rgba(0,0,0,0.5);
 }
 
-.movie-image-ad {
-    /*display: none;*/
+.movie-logo {
+    position: relative;
+    z-index: 2;
+}
+
+#lakehouse {
     position: absolute;
+    top: 5px;
+    left: 5px;
     z-index: 1;
+}
+
+.movie-image-ad {
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
     bottom: 12px;
     left: 5px;
 }
@@ -31,6 +44,10 @@
     padding: 8px 48px 8px 8px;
 }
 
+.movie-image-ad-text:hover {
+    opacity: 1;
+}
+
 .movie-image-ad .fa {
     color: rgba(255,255,255,0.2);;
     border-radius: 2px;
@@ -38,6 +55,10 @@
     opacity: 0.5;
     padding: 10px 7px;
     font-size: 28px;
+}
+
+.movie-image-ad .fa:hover {
+    color: #fff;
 }
 
 .movie-image-ad-link {

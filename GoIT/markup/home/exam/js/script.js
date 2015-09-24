@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
 
-    $('#lakehouse').hide();
     $('#tab-wrap2').hide();
     $('#tab-wrap3').hide();
 
@@ -12,13 +11,11 @@ $(document).ready(function() {
     });
 
     $('.movie-image-ad-right').click(function() {
-        $('#lakehouse').hide();
-        $('.movie-logo').show();
+        $('.movie-logo').toggle();
     });
 
     $('.movie-image-ad-left').click(function() {
-        $('#lakehouse').hide();
-        $('.movie-logo').show();
+        $('.movie-logo').toggle();
     });
 
     // Tabs
