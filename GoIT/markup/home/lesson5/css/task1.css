@@ -27,7 +27,7 @@ a {
     padding: 11px 11px;
 }
 
-a:hover {
+li:hover a {
     background-color: #eee;
     color: #a0a0a0;
 }

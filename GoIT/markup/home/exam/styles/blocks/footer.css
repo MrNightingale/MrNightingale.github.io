@@ -62,7 +62,7 @@
 
 .articles-list::before {
     content: '';
-    background: url("../../i/footer_article.png") 0 0;
+    background: url("../../images/footer_article.png") 0 0;
     width: 20px;
     height: 18px;
     position: absolute;

@@ -1,5 +1,6 @@
 .page {
-    background-image: url('../../i/background.png');
+    background-image: url('../../images/background.png');
+    min-width: 972px;
 }
 
 .page-wrap {

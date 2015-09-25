@@ -59,7 +59,7 @@ body {
 
 /* Banner */
 .banner {
-    background: url('../i/banner.png') no-repeat;
+    background: url('../images/banner.png') no-repeat;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -160,7 +160,7 @@ body {
 
 /* Services */
 .services {
-    background: url('../i/services-bg.png') no-repeat;
+    background: url('../images/services-bg.png') no-repeat;
     background-size: cover;
 }
 
@@ -337,7 +337,7 @@ div.price p {
     height: 15px;
     float: left;
     margin: 0 16px 0 32px;
-    background: url('../i/check.png') 0 0;
+    background: url('../images/check.png') 0 0;
 
 }
 
@@ -382,7 +382,7 @@ div.price p {
 /* Testimonials */
 .testimonials {
     font-family: 'Open Sans', sans-serif;
-    background: url('../i/testimonials-background.png') no-repeat;
+    background: url('../images/testimonials-background.png') no-repeat;
     background-size: cover;
 }
 

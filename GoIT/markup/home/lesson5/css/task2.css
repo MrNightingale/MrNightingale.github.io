@@ -32,6 +32,7 @@ h1 {
 
 div.price p {
     margin: 0 0 19px 0;
+    color: #35495a;
 }
 
 .currency {
@@ -62,6 +63,7 @@ li {
     font-size: 15px;
     text-align: left;
     margin-bottom: 1px;
+    color: #acafb5;
 }
 
 li:before {
