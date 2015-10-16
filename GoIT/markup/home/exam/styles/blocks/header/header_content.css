@@ -1,6 +1,8 @@
 /* Header Content */
 .header-content {
     width: 810px;
-    margin: 0 auto;
+    margin: 30px 20px 0;
     position: relative;
+    padding: 0 60px 143px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }

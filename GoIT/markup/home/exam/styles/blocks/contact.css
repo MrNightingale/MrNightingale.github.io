@@ -1,0 +1,164 @@
+.contact__wrap {
+    width: 932px;
+    height: 540px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.contact__header {
+    font: 20px 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    color: #bbb;
+    padding: 13px 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 0;
+
+}
+
+.contact__container {
+    border-top: 1px solid #e5e5e5;
+    box-shadow:  0 -7px 16px -14px rgba(50, 50, 50, 0.8)
+}
+
+/* Message */
+.contact__message {
+    float: left;
+    width: 611px;
+    height: 486px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.contact__message-header {
+    font: 18px 'Oxygen', sans-serif;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 20px 0;
+    padding: 16px 0;
+    position: relative;
+
+}
+
+/* Triangle */
+.contact__message-header::before {
+    position: absolute;
+    top: 55px;
+    left: 47px;
+    z-index: 2;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6.5px 0 6.5px;
+    border-color: #e0e0e0 transparent transparent transparent;
+}
+
+.contact__message-header::after {
+    position: absolute;
+    top: 54px;
+    left: 47px;
+    z-index: 2;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6.5px 0 6.5px;
+    border-color: #fff transparent transparent transparent;
+}
+/* End of Triangle */
+
+.contact__form {
+    font: 12px 'Arial', sans-serif;
+}
+
+.contact__form-label-message {
+    vertical-align: 172px;
+}
+
+.contact__form-input {
+    margin-bottom: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.contact__form-username,
+.contact__form-email,
+.contact__form-website {
+    width: 152px;
+    height: 22px;
+}
+
+.contact__form-username {
+    margin-left: 75px;
+}
+
+.contact__form-username:focus {
+    outline-color: #cae28b;
+}
+
+.contact__form-email {
+    margin-left: 74px;
+}
+
+.contact__form-email:focus {
+    outline-color: #ecb0b0;
+}
+
+.contact__form-website {
+    margin-left: 64px;
+}
+
+.contact__form-message {
+    width: 461px;
+    height: 157px;
+    margin-left: 30px;
+    color: #999;
+    padding: 7px;
+    word-spacing: -1px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    resize: none;
+}
+
+/* Button */
+.contact__form-button {
+    width: 135px;
+    font: 14px 'Oxygen', sans-serif;
+    color: rgba(255,255,255,0.9);
+    background: -webkit-linear-gradient(top, #ffc653 0%, #ffc14a 50%, #ffbc44 100%);
+    background: -moz-linear-gradient(top, #ffc653 0%, #ffc14a 50%, #ffbc44 100%);
+    border: 1px solid #ffc551;
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin-left: 114px;
+    height: 28px;
+}
+
+.contact__form-button:hover {
+    box-shadow: 0 3px 0 #ffa605;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+/* Information */
+.contact__information {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    width: 298px;
+    float: left;
+    margin: 20px 0 0 20px;
+    font: 12px 'Arial', sans-serif;
+}
+
+.contact__information-header {
+    padding: 9px 0 6px 0;
+    margin: 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.contact__information-text {
+    margin: 10px 10px 20px 12px;
+    color: #444;
+    text-align: justify;
+    line-height: 1.6;
+}

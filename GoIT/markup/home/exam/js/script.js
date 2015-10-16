@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 
+    $('#lakehouse').hide();
     $('#tab-wrap2').hide();
     $('#tab-wrap3').hide();
 

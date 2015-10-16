@@ -1,6 +1,6 @@
 .page {
-    background-image: url('../../images/background.png');
-    min-width: 972px;
+    background-color: #fafafa;
+    min-width: 950px;
 }
 
 .page-wrap {
