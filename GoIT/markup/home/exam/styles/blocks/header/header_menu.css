@@ -2,12 +2,14 @@
 .header-wrap {
     width: 932px;
     margin: 0 auto;
+    padding-bottom: 143px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .menu {
     margin: 24px 0 0;
     padding-top: 17px;
-    height: 97px;
+    height: 125px;
 }
 
 .company-name {
@@ -105,17 +107,39 @@
 }
 
 .submenu-nav-item {
-    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    -border-bottom: 1px solid rgba(0,0,0, 0.3);
     padding: 0 0 3px 0;
-    margin: 2px 5px 2px;
+    margin: 2px 1px 2px;
+    position: relative;
+}
+
+.submenu-nav-item:nth-last-of-type(n+2)::after {
+    content: '';
+    width: 144px;
+    height: 1px;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    position: absolute;
+    top: 32px;
+    left: 4px;
+}
+
+.submenu-nav li.submenu-nav-item:first-of-type::after {
+    content: '';
+    width: 144px;
+    height: 1px;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    position: absolute;
+    top: 47px;
+    left: 4px;
 }
 
 .submenu-nav li.submenu-nav-item:first-of-type {
-    margin: 5px 5px 2px;
+    margin: 5px 1px 2px;
 }
 
 .submenu-nav li.submenu-nav-item:last-of-type {
-    border-bottom: none;
+    margin-top: -4px;
+    padding: 0;
 }
 
 .submenu-nav-item-link {
@@ -132,6 +156,7 @@
 
 .submenu-nav-item-wrap {
     padding: 7px 0 7px 6px;
+    width: 146px;
 }
 
 .submenu-nav-item-wrap:hover {
@@ -143,6 +168,8 @@
     background-color: #f3f3f3;
     border-radius: 3px;
 }
+
+
 
 .menu-button {
     font: 14px 'Oxygen', sans-serif;

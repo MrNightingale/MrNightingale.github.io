@@ -133,12 +133,12 @@
 }
 
 .tabs-highlight {
-    background-color: #ffad19;
-    opacity: 0.5;
+    background-color: #ffe7b9;
+    color: #d0982e;
 }
 
 .tab-header-highlight {
-    background-color: #ffad19;
-    opacity: 0.5;
+    background-color: #ffe7b9;
+    color: #d0982e;
     padding: 2px;
 }
