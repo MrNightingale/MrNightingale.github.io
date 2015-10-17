@@ -7,6 +7,16 @@ var vovochka = { name: 'Вовочка', age: 6 };
 
 var people = [ vasya , masha , vovochka ];
 
+people.sort(function(a, b) {
 
+    if (a.age < b.age) {
+        return -1;
+    }
+    if (a.age > b.age) {
+        return 1;
+    }
+    return 0;
+
+});
 
 console.log(people[0].age);
