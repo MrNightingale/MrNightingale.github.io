@@ -18,6 +18,7 @@ function descendingOrder(n){
     });
 
     return +arr.join('');
+
 }
 
 console.log(descendingOrder(145263));
