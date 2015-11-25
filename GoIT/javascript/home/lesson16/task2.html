@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Elements Search</title>
+</head>
+<body>
+<form name="search">
+    <label>Поиск по сайту:
+        <input type="text" name="search">
+    </label>
+    <input type="submit" value="Искать!">
+</form>
+
+<hr>
+
+<form name="search-person">
+    Поиск по посетителям:
+    <table id="age-table">
+        <tr>
+            <td>Возраст:</td>
+            <td id="age-list">
+                <label>
+                    <input type="radio" name="age" value="young">до 18</label>
+                <label>
+                    <input type="radio" name="age" value="mature">18-50</label>
+                <label>
+                    <input type="radio" name="age" value="senior">более 50</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Дополнительно:</td>
+            <td>
+                <input type="text" name="info[0]">
+                <input type="text" name="info[1]">
+                <input type="text" name="info[2]">
+            </td>
+        </tr>
+
+    </table>
+
+    <input type="submit" value="Искать!">
+</form>
+<!-- Найдите (получите в переменную) в нём:
+
+Все элементы label внутри таблицы. Должно быть 3 элемента.
+Первую ячейку таблицы (со словом "Возраст").
+Вторую форму в документе.
+Форму с именем search, без использования её позиции в документе.
+Элемент input в форме с именем search. Если их несколько, то нужен первый.
+Элемент с именем info[0], без точного знания его позиции в документе.
+Элемент с именем info[0], внутри формы с именем search-person. -->
+<script>
+    var labelInTable = document.getElementsByTagName('td')[1].getElementsByTagName('label');
+    console.log(labelInTable);
+
+    var age = document.getElementsByName('age')[0];
+    console.log(age);
+
+    var secondForm = document.getElementsByTagName('form')[1];
+    console.log(secondForm);
+
+    var searchForm = document.querySelector('form[name="search"]');
+    console.log(searchForm);
+
+    var inputSearchForm = document.querySelector('input[name="search"]');
+    console.log(inputSearchForm);
+
+    var zeroInfoElement = document.getElementsByName('info[0]')[0];
+    console.log(zeroInfoElement);
+
+    var zeroInfoElementSearch = document.querySelector('input[name="info[0]"]');
+    console.log(zeroInfoElementSearch);
+</script>
+</body>
+</html>
