@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Insert Elements</title>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+</ul>
+<script>
+    var ul = document.body.children[0];
+    var li2 = ul.children[1];
+    li2.insertAdjacentHTML('afterEnd', '<li>3</li><li>4</li><li>5</li>');
+</script>
+</body>
+</html>

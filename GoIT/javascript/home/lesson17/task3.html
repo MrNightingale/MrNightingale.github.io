@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Insert After</title>
+</head>
+<body>
+<div>Это</div>
+<div>Элементы</div>
+
+<script>
+    var elem = document.createElement('div');
+    elem.innerHTML = '<b>Новый элемент</b>';
+
+    function insertAfter(elem, refElem) {
+        var parent = refElem.parentNode;
+        parent.insertBefore(elem, refElem.nextSibling);
+    }
+
+    var body = document.body;
+//    body.insertBefore(elem, null);
+//    body.insertBefore(elem, body.lastChild);
+    // вставить elem после первого элемента
+    insertAfter(elem, body.firstChild); // <--- должно работать
+
+    // вставить elem за последним элементом
+    insertAfter(elem, body.lastChild); // <--- должно работать
+</script>
+</body>
+</html>
