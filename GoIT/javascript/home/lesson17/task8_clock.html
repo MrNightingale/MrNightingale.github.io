@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <style>
+        .clock {
+            font-family: 'Lobster', cursive;
+            font-size: 100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hours {
+            color: #16436a;
+        }
+
+        .min {
+            color: #e4551d;
+        }
+
+        .sec {
+            color: #a23cd0;
+        }
+    </style>
+</head>
+<body>
+<div class="clock">
+    <span class="hours"></span><span class="symbol"></span><span class="min"></span><span class="symbol"></span><span class="sec"></span>
+</div>
+<script>
+
+    var h = document.querySelector('.hours');
+    var m = document.querySelector('.min');
+    var s = document.querySelector('.sec');
+    var symbol = document.querySelectorAll('span.symbol');
+
+    setInterval(function () {
+
+        var time = new Date();
+
+        var hours = time.getHours();
+        if (hours < 10) {
+            hours = '0' + hours;
+        }
+
+        var min = time.getMinutes();
+        if (min < 10) {
+            min = '0' + min;
+        }
+
+        var sec = time.getSeconds();
+        if (sec < 10) {
+            sec = '0' + sec;
+        }
+
+        h.innerHTML = hours;
+        m.innerHTML = min;
+        s.innerHTML = sec;
+
+        for (var i = 0; i < symbol.length; i++) {
+            symbol[i].innerHTML = ':';
+        }
+
+    }, 1000);
+
+</script>
+</body>
+</html>
