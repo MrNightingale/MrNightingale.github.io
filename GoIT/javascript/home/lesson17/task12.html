@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Scroll Bottom</title>
+</head>
+<body>
+<div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores blanditiis delectus deserunt dolore
+        dolorem dolorum eius illo in ipsa ipsum laboriosam nisi non nulla, recusandae rem saepe totam vitae.
+    </div>
+    <div>Aliquid beatae consequatur dignissimos distinctio dolore enim est expedita illo ipsam maiores minus nostrum
+        obcaecati officiis optio perferendis placeat quasi repudiandae saepe sit sunt temporibus tenetur unde veritatis,
+        voluptates voluptatum?
+    </div>
+    <div>Amet dolorum impedit iure odio provident quaerat quasi quisquam reiciendis similique. Ea in, incidunt molestias
+        necessitatibus nostrum odio quia quis repellat! Blanditiis excepturi exercitationem facere fugiat harum odit
+        repellat, reprehenderit?
+    </div>
+    <div>Adipisci amet asperiores corporis facere magni modi nisi officiis porro saepe, sint tempora tempore voluptate.
+        Beatae, debitis, facere impedit iste, magni maiores molestias natus nesciunt omnis optio quasi quia recusandae?
+    </div>
+    <div>Alias aliquid corporis eaque est eveniet explicabo, fugit ipsa magnam nihil rerum sunt vel voluptatibus.
+        Accusantium eos impedit ipsa iusto nihil obcaecati perspiciatis quis quos ratione, recusandae repellendus soluta
+        voluptate.
+    </div>
+</div>
+<script>
+    var body = document.body;
+    var scrollBottom = body.scrollHeight - body.scrollTop - body.offsetHeight;
+    if (scrollBottom < 0) scrollBottom = 0;
+    console.log(scrollBottom);
+</script>
+</body>
+</html>
