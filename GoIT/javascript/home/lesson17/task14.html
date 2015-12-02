@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Document Scope</title>
+</head>
+<body>
+<script>
+    function getDocumentScroll() {
+
+        var scrollHeight = Math.max(document.body.offsetHeight,
+                document.body.clientHeight,
+                document.body.scrollHeight,
+                document.documentElement.offsetHeight,
+                document.documentElement.clientHeight,
+                document.documentElement.scrollHeight);
+
+        return {
+            top: pageYOffset,
+            bottom: pageYOffset + document.documentElement.clientHeight,
+            height: scrollHeight
+        }
+    }
+
+    console.log( getDocumentScroll() );
+</script>
+</body>
+</html>
