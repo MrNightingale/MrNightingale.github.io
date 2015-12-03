@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -66,21 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task10_tableSort.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="task10_tableSort.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="991">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task11.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task11.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6071006" vertical-offset="1377" max-vertical-offset="3005">
-              <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.56702256" vertical-offset="276" max-vertical-offset="2554">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -89,7 +79,7 @@
       <file leaf-file-name="slider.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson18/slider/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1292">
+            <state vertical-scroll-proportion="0.0" vertical-offset="688" max-vertical-offset="2122">
               <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding />
             </state>
@@ -173,7 +163,6 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task6.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task9.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_table sort.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task8_clock.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task7_calendar.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/class/lesson18/slider/css/style.css" />
@@ -181,6 +170,7 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task14.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task13.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task11.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html" />
       </list>
     </option>
   </component>
@@ -834,7 +824,11 @@
       <created>1449166722120</created>
       <updated>1449166722120</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="lesson17 hw task11">
+      <created>1449170368656</created>
+      <updated>1449170368656</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -897,7 +891,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Small fixes" />
     <MESSAGE value="Change folder name 'i' to 'images'" />
     <MESSAGE value="Change color of the price" />
     <MESSAGE value="Add lesson3" />
@@ -922,14 +915,15 @@
     <MESSAGE value="lesson17 hw task12" />
     <MESSAGE value="lesson17 hw task14" />
     <MESSAGE value="lesson17 hw task13" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson17 hw task13" />
+    <MESSAGE value="lesson17 hw task11" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson17 hw task11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -1266,14 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson18/slider/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2633">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson18/slider/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.730769" vertical-offset="248" max-vertical-offset="1654">
@@ -1298,18 +1284,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="991">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5751479" vertical-offset="1377" max-vertical-offset="3005">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task11.html">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson18/slider/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6071006" vertical-offset="1377" max-vertical-offset="3005">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2633">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_tableSort.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56702256" vertical-offset="276" max-vertical-offset="2554">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Table Sort</title>
+</head>
+<body>
+<table>
+
+    <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Second Name</th>
+        <th>Age</th>
+    </tr>
+
+    <tr>
+        <th>Петр</th>
+        <th>Петров</th>
+        <th>Петрович</th>
+        <th>11</th>
+    </tr>
+
+    <tr>
+        <th>Глеб</th>
+        <th>Глебов</th>
+        <th>Глебович</th>
+        <th>8</th>
+    </tr>
+
+    <tr>
+        <th>Кирилл</th>
+        <th>Кириллов</th>
+        <th>Кириллович</th>
+        <th>4</th>
+    </tr>
+
+</table>
+<button onclick="sort()">Table Sort</button>
+<script>
+
+    function sort() {
+        var tbody = document.getElementsByTagName('tbody')[0];
+        var rows = [];
+
+        for (var i = 1; i < tbody.children.length; i++) {
+            rows.push(tbody.children[i]);
+        }
+
+        rows.sort(function(a, b) {
+            return a.children[3].innerHTML - b.children[3].innerHTML;
+        });
+
+        for (var j = 0; j < rows.length; j++) {
+            tbody.appendChild(rows[j]);
+        }
+    }
+
+</script>
+</body>
+</html>
