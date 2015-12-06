@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Delete Block</title>
+    <style>
+        .animals {
+            margin: 0 auto;
+            width: 470px;
+        }
+        .pane {
+            background-color: #EDF5E1;
+            border-top: 2px solid #C4DF9B;
+            padding: 10px;
+            position: relative;
+
+        }
+
+        .remove-button {
+            cursor: pointer;
+            position: absolute;
+            right: 8px;
+            top: 4px;
+            font-size: 110%;
+            color: #8B0000;
+            border: none;
+            background-color: #EDF5E1;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="animals">
+    <div class="pane">
+        <button class="remove-button">[x]</button>
+        <h3>Лошадь</h3>
+        <p>Домашняя лошадь — животное семейства непарнокопытных, одомашненный и единственный сохранившийся подвид дикой лошади, вымершей в дикой природе, за исключением небольшой популяции лошади Пржевальского.</p>
+    </div>
+    <div class="pane">
+        <button class="remove-button">[x]</button>
+        <h3>Осёл</h3>
+        <p>Домашний осёл или ишак — одомашненный подвид дикого осла, сыгравший важную историческую роль в развитии хозяйства и культуры человека. Все одомашненные ослы относятся к африканским ослам.</p>
+    </div>
+    <div class="pane">
+        <button class="remove-button">[x]</button>
+        <h3>Корова, а также пара слов о диком быке, о волах и о тёлках. </h3>
+        <p>Коро́ва — самка домашнего быка, одомашненного подвида дикого быка, парнокопытного жвачного животного семейства полорогих. Самцы вида называются быками, молодняк — телятами, кастрированные самцы — волами. Молодых (до первой стельности) самок называют
+            тёлками.
+        </p>
+    </div>
+</div>
+
+<script>
+
+    var crossButton = document.body.querySelectorAll('.remove-button');
+    var paneBlock = document.body.querySelectorAll('.pane');
+    console.log(crossButton);
+    console.log(paneBlock);
+
+    var crossButtonArr = Array.prototype.slice.call(crossButton);
+
+    crossButtonArr.forEach(function(item) {
+        item.addEventListener('click', hideBlock);
+    });
+
+    function hideBlock() {
+        var el = this.parentNode;
+        el.parentNode.removeChild(el);
+    }
+
+</script>
+</body>
+</html>

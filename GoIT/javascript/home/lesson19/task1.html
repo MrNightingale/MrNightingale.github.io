@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hide Button</title>
+</head>
+<body>
+<!-- Создайте кнопку, при клике на которую, она будет скрывать сама себя. -->
+<input type="button" id="button" value="Click me!">
+<script>
+    var button = document.body.querySelector('#button');
+
+    function hide() {
+        button.style.display = 'none';
+    }
+
+    button.addEventListener('click', hide);
+</script>
+</body>
+</html>
