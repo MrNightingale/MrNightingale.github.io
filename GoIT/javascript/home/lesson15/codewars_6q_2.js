@@ -4,8 +4,19 @@
  */
 // return the nested property value if it exists,
 // otherwise return undefined
-Object.prototype.hash = function(string) {
-    return this.string;
+Object.prototype.hash = function(str) {
+    var strArr = str.split('.');
+    var objDate = this;
+    var prop;
+
+    while (prop = strArr.shift()) {
+        objDate = objDate[prop];
+        if (objDate === undefined) {
+            return undefined;
+        }
+    }
+
+    return objDate;
 };
 
 var obj = {
