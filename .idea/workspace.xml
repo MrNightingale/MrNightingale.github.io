@@ -1,8 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="test case videotube">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/slides/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/slides/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/slides/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/slides/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/slides/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/slides/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/54x54-a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/54x54-a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/54x54-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/54x54-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/54x54-c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/54x54-c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/620x450-a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/620x450-a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/620x450-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/620x450-b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/620x450-c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/620x450-c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/620x450-d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/620x450-d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/banner-mt.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/banner-mt.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/banner-tf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/banner-tf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/banner-tp.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/banner-tp.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/bottom-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/bottom-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/divider-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/divider-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/f-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/f-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/f-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/f-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/dummies/f-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/dummies/f-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/flickr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/flickr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/googleplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/googleplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/info-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/info-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/info-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/info-green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/info-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/info-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/info-yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/info-yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/lastfm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/lastfm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/main-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/main-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/pagination.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/pagination.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/stacked-paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/stacked-paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/toggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/toggle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/tumblr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/tumblr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/widgets-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/widgets-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/widgets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/widgets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/img/social/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/img/social/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/articles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/articles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/comments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/comments.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/entry-content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/entry-content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/js/news.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/js/news.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/nivo-slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/nivo-slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/palette.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/palette.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/shortcodes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/shortcodes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/superfish.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/superfish.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/class/lesson22/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson22/css/widgets.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -28,11 +149,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html">
+          <file leaf-file-name="blog.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson22/blog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.567217" vertical-offset="575" max-vertical-offset="2048">
-                  <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.69590646" vertical-offset="119" max-vertical-offset="5309">
+                  <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -42,24 +163,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js">
+          <file leaf-file-name="news.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson22/js/news.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5107832" vertical-offset="0" max-vertical-offset="3831">
-                  <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.44381386" vertical-offset="1734" max-vertical-offset="4331">
+                  <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="blockBtn.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/blockBtn.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1306">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#45#0" expanded="false" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -80,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_3.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_1.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_4.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/class/lesson16/task1.js" />
@@ -131,6 +239,7 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson20/blockBtn.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson22/js/news.js" />
       </list>
     </option>
   </component>
@@ -194,6 +303,24 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="VladyslavSoloviov.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="GoIT/markup/home/exam">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,7 +375,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson20" />
+              <option name="myItemId" value="lesson22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,26 +449,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="VladyslavSoloviov.github.io">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="GoIT/markup/home/exam">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson22" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -348,11 +569,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson20" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson18" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson18" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson17" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson13" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson20" />
@@ -388,14 +609,6 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -406,14 +619,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -421,6 +632,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -757,12 +978,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -829,34 +1050,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson14/task4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6094571" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson14/task1_opt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8406305" vertical-offset="0" max-vertical-offset="1381">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson14/task3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6619965" vertical-offset="0" max-vertical-offset="922">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson14/task2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0875657" vertical-offset="681" max-vertical-offset="1842">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson14/task1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5954466" vertical-offset="1394" max-vertical-offset="2577">
@@ -1109,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="1161">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1020">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1275">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,7 +1323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6643275" vertical-offset="316" max-vertical-offset="1722">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41754386" vertical-offset="0" max-vertical-offset="1246">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,7 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15437004" vertical-offset="0" max-vertical-offset="1000">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,17 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15437004" vertical-offset="0" max-vertical-offset="1323">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/blockBtn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1306">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,7 +1351,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34733257" vertical-offset="0" max-vertical-offset="1170">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5955189" vertical-offset="575" max-vertical-offset="2048">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1183,14 +1365,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5107832" vertical-offset="0" max-vertical-offset="3831">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/blockBtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2553916" vertical-offset="0" max-vertical-offset="1256">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39766082" vertical-offset="0" max-vertical-offset="1467">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.567217" vertical-offset="575" max-vertical-offset="2048">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.34733257" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson22/js/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44381386" vertical-offset="1734" max-vertical-offset="4331">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson22/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69590646" vertical-offset="119" max-vertical-offset="5309">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
