@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/media/death.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/media/fire.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/media/intro.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/media/shot.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/media/win.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/instagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/images/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/exus.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/exus/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -36,14 +42,14 @@
     <favorites_list name="VladyslavSoloviov.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4318456">
+    <splitter split-orientation="horizontal" split-proportion="0.40289506">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.86052006" vertical-offset="0" max-vertical-offset="1990">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.2760234" vertical-offset="104" max-vertical-offset="1552">
+                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -56,18 +62,28 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="4217">
-                  <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2414">
+                  <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.476731" vertical-offset="3690" max-vertical-offset="4961">
-                  <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="3193">
+                  <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoIT/exus/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2921">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -89,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GoIT/javascript/class/lesson16/task1.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task1.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task2.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task3.js" />
@@ -137,9 +152,10 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson20/blockBtn.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson22/js/news.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/js/gunman.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
       </list>
     </option>
   </component>
@@ -249,11 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="exus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,94 +283,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
+              <option name="myItemId" value="exus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VladyslavSoloviov.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VladyslavSoloviov.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VladyslavSoloviov.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VladyslavSoloviov.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GoIT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="VladyslavSoloviov.github.io">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="GoIT/markup/home/exam">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../videotube" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="239" />
@@ -383,11 +326,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\exam\media" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson20" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson18" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson18" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson20" />
@@ -423,6 +366,14 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -433,12 +384,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -446,16 +399,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -757,7 +700,11 @@
       <created>1449770166923</created>
       <updated>1449770166923</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add js exam">
+      <created>1450008137532</created>
+      <updated>1450008137532</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -782,13 +729,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3410341" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21652594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21652594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31990793" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -820,7 +767,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add lesson7, 8  classwork and homework" />
     <MESSAGE value="fix in the lesson7 codewars 1 and 3 tasks" />
     <MESSAGE value="fix lesson7 codewars3 task" />
     <MESSAGE value="lesson10 hw (tasks 1-6 and codewars 7q  1-3 tasks)" />
@@ -845,7 +791,8 @@
     <MESSAGE value="lesson19 classwork and homework tasks 1-4" />
     <MESSAGE value="test case videotube" />
     <MESSAGE value="lesson22 classwork and homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson22 classwork and homework" />
+    <MESSAGE value="add js exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="add js exam" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,13 +815,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson16/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6238532" vertical-offset="0" max-vertical-offset="970">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6339411" vertical-offset="99" max-vertical-offset="1554">
@@ -1200,26 +1140,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="4217">
-          <caret line="121" column="39" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.2760234" vertical-offset="104" max-vertical-offset="1552">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86052006" vertical-offset="0" max-vertical-offset="1990">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2491" max-vertical-offset="4217">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.476731" vertical-offset="3690" max-vertical-offset="4961">
-          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2363">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/exus/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2921">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

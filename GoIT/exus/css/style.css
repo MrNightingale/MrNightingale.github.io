@@ -1,0 +1,120 @@
+/* Page */
+.page {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* Header Top */
+.header__top {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 15px 20px 20px;
+    border-bottom: 1px solid #006d98;
+}
+
+.header__top-link {
+    color: #4280a7;
+    text-decoration: none;
+}
+
+.header__top-text-link,
+.header__top-text {
+    margin: 0;
+    overflow: hidden;
+}
+
+.header__top-text-link {
+    float: left;
+}
+
+.header__top-text {
+    float: right;
+}
+
+/* Header Middle */
+.header__middle {
+    min-width: 700px;
+    white-space: nowrap;
+    border-bottom: 1px solid #76b2ee;
+    background: -webkit-linear-gradient(bottom, #0076b8 0%, #0486c2 50%, #0287cc 51%, #028ecb 100%);
+}
+
+.header__middle-links,
+.header__middle-logo,
+.header__middle-social {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+
+.header__middle-links {
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 20%;
+
+    font-size: 14.4px;
+}
+
+.header__middle-log,
+.header__middle-contact {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__middle-log {
+    border-right: 1px solid #fff;
+    padding-right: 7px;
+}
+
+.header__middle-logo {
+    margin-left: 10%;
+    margin-right: 5.2%;
+
+    width: 33%;
+    height: 68px;
+}
+
+.header__middle-social {
+    width: 26.8%;
+    margin-right: 2%;
+}
+.header__middle-social-list {
+    padding: 0;
+    display: inline-block;
+}
+
+.header__middle-social-link {
+    display: inline-block;
+}
+
+/* Header Bottom */
+.header__bottom-links {
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: -webkit-linear-gradient(bottom, #ebf9f9 0%, #f5f3f6 50%, #faf1f4 51%, #dad3cd 100%);
+}
+
+.header__bottom-list {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.header__bottom-link {
+    text-decoration: none;
+    color: #2588b2;
+    text-transform: uppercase;
+    padding-right: 6.65px;
+}
+
+.dot::after {
+    content: '';
+    background: url('../images/dot.png');
+    width: 4px;
+    height: 5px;
+    float: left;
+    margin: -12px 0 0 -28px;
+}

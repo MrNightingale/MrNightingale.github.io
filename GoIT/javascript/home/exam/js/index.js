@@ -61,7 +61,7 @@ setTimeout(function() {
 
     audio.src = 'media/fire.m4a';
 
-    game.addEventListener('click', shoot);
+    gunMan.addEventListener('click', shoot);
 
     startTime = new Date();
 
