@@ -29,7 +29,7 @@ $(function() {
 
     // Сгененрировать html для новой строки с элементом
     ToDo.prototype.getItemHtml = function (position, item) {
-        var tmpl = '<tr><th>:position</th><td>:text</td><td><button type="button" class="btn btn-info">&#8593;</button></td><td><button type="button" class="btn btn-info">&#8595;</button></td><td><button type="button" data-index=":index" class="btn btn-danger">☓</button></td></tr>';
+        var tmpl = '<tr><th>:position</th><td>:text</td><td><button type="button" data-index=":index" class="btn btn-info btn-up">&#8593;</button></td><td><button type="button" data-index=":index" class="btn btn-info btn-down">&#8595;</button></td><td><button type="button" data-index=":index" class="btn btn-danger">☓</button></td></tr>';
 
         return tmpl.replace(/:position/gi, position).replace(/:text/gi, item).replace(/:index/gi, position - 1);
     };
@@ -74,7 +74,51 @@ $(function() {
 
     // Удаление элемента
     ToDo.prototype.removeItem = function (index) {
+        console.log(index);
         this.model.splice(index, 1);
+
+        this.renderList();
+    };
+
+    // Сортировка элемента
+    ToDo.prototype.sortItemUp = function (index) {
+
+        if (index === 0) {
+            return;
+        }
+
+        var newArr  = this.model.splice(index, 1);
+
+        var resArr = [];
+
+        resArr.push(newArr[0]);
+
+        for (var i = 0; i < this.model.length; i++) {
+            resArr.push(this.model[i]);
+        }
+
+        this.model = resArr;
+
+        this.renderList();
+    };
+
+    ToDo.prototype.sortItemDown = function (index) {
+
+        if (index === this.model.length-1) {
+            return;
+        }
+
+        var newArr  = this.model.splice(index, 1);
+
+        var resArr = [];
+
+        for (var i = 0; i < this.model.length; i++) {
+            resArr.push(this.model[i]);
+        }
+
+        resArr.push(newArr[0]);
+
+        this.model = resArr;
 
         this.renderList();
     };
@@ -84,6 +128,18 @@ $(function() {
         var __self = this;
 
         this.renderList();
+
+        this.todoList.on('click','.btn-up', function (e) {
+            var index = $(e.target).data('index');
+
+            __self.sortItemUp(index);
+        });
+
+        this.todoList.on('click','.btn-down', function (e) {
+            var index = $(e.target).data('index');
+
+            __self.sortItemDown(index);
+        });
 
         this.todoList.on('click','.btn-danger', function (e) {
             var index = $(e.target).data('index');
