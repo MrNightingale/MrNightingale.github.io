@@ -6,24 +6,15 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/death.mp3" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/favicon.ico" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/fire.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman2.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/intro.mp3" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/shot.mp3" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper2.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/win.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/gunman.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/jquery-1.11.3.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/exus/index.html" afterPath="$PROJECT_DIR$/GoIT/exus/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/exus/css/style.css" afterPath="$PROJECT_DIR$/GoIT/exus/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -52,8 +43,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55438596" vertical-offset="121" max-vertical-offset="1552">
-                  <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.59415203" vertical-offset="121" max-vertical-offset="1552">
+                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -868,7 +859,11 @@
       <created>1450385198970</created>
       <updated>1450385198970</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add exam">
+      <created>1451068476458</created>
+      <updated>1451068476458</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -895,6 +890,7 @@
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3410341" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -910,7 +906,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -953,7 +948,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="lesson10 hw (tasks 1-6 and codewars 7q  1-3 tasks)" />
     <MESSAGE value="lesson10 hw" />
     <MESSAGE value="add lesson9 hw tasks 1, 2 and codewars1" />
     <MESSAGE value="add lesson9 hw task 3" />
@@ -978,7 +972,8 @@
     <MESSAGE value="add js exam" />
     <MESSAGE value="exus project" />
     <MESSAGE value="lesson20 hw add sort items function in the ToDo list" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson20 hw add sort items function in the ToDo list" />
+    <MESSAGE value="add exam" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exam" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1271,6 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4367">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,6 +1274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="3939">
           <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,6 +1282,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44381386" vertical-offset="2057" max-vertical-offset="3550">
           <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,8 +1322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55438596" vertical-offset="121" max-vertical-offset="1552">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.59415203" vertical-offset="121" max-vertical-offset="1552">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
