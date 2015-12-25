@@ -118,7 +118,10 @@ btnPlay.addEventListener('click', again);
 
 function shoot() {
 
-    audio.src = 'media/shot.mp3';
+    setTimeout(function() {
+        audio.src = 'media/shot.mp3';
+    }, 4);
+
 
     fire.parentNode.removeChild(fire);
 
@@ -128,7 +131,9 @@ function shoot() {
 
     if (userTime < pcTime) {
 
-        audio.src = 'media/win.mp3';
+        setTimeout(function() {
+            audio.src = 'media/win.mp3';
+        }, 600);
 
         trooper.style.right = '170px';
         trooper.style.width = '275px';
@@ -137,10 +142,10 @@ function shoot() {
 
         page.appendChild(overlayWin);
 
-        resInfo.style.height = '75px';
-        resInfo.style.paddingTop = '35px';
+//        resInfo.style.height = '75px';
+//        resInfo.style.paddingTop = '35px';
         resInfo.innerHTML = 'winner!';
-        page.appendChild(resInfo);
+        game.appendChild(resInfo);
 
         rewardValue += 100;
 
@@ -167,7 +172,9 @@ function shoot() {
 
     } else {
 
-        audio.src = 'media/death.mp3';
+        setTimeout(function() {
+            audio.src = 'media/death.mp3';
+        }, 600);
 
         trPos -= trPosStep*2;
         trooper.style.backgroundPosition = trPos + 'px';
@@ -180,11 +187,9 @@ function shoot() {
         resInfo.innerHTML = 'You lose! ' +
             'Your reward: ' + rewardValue + ' $';
 
-        page.appendChild(resInfo);
+        game.appendChild(resInfo);
 
-        page.appendChild(resInfo);
-
-        page.appendChild(btnPlay);
+        game.appendChild(btnPlay);
 
     }
 
