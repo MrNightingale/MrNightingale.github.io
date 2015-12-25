@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/death.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/fire.m4a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/intro.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/shot.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/win.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/jquery-1.11.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -43,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.59415203" vertical-offset="121" max-vertical-offset="1552">
-                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5169591" vertical-offset="0" max-vertical-offset="1552">
+                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -54,31 +42,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4383">
-                  <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.03274854" vertical-offset="227" max-vertical-offset="1569">
-                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2414">
-                  <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+                <state vertical-scroll-proportion="0.27014756" vertical-offset="408" max-vertical-offset="4383">
+                  <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -148,9 +116,9 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/css/style.css" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/js/index.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
       </list>
     </option>
   </component>
@@ -863,7 +831,11 @@
       <created>1451068476458</created>
       <updated>1451068476458</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="add Wild Trooper game">
+      <created>1451068495484</created>
+      <updated>1451068495484</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -948,7 +920,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="lesson10 hw" />
     <MESSAGE value="add lesson9 hw tasks 1, 2 and codewars1" />
     <MESSAGE value="add lesson9 hw task 3" />
     <MESSAGE value="add lesson9 hw task 4" />
@@ -973,7 +944,8 @@
     <MESSAGE value="exus project" />
     <MESSAGE value="lesson20 hw add sort items function in the ToDo list" />
     <MESSAGE value="add exam" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exam" />
+    <MESSAGE value="add Wild Trooper game" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Wild Trooper game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1286,14 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3244">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/images/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1304,14 +1268,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4384">
-          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03274854" vertical-offset="227" max-vertical-offset="1569">
@@ -1320,10 +1276,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27014756" vertical-offset="408" max-vertical-offset="4383">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6560726" vertical-offset="1615" max-vertical-offset="3244">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59415203" vertical-offset="121" max-vertical-offset="1552">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5169591" vertical-offset="0" max-vertical-offset="1552">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
