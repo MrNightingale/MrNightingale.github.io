@@ -39,14 +39,14 @@
 
     width: 120px;
     height: 364px;
-    background: url('../images/gunman.png') no-repeat;
+    background: url('../images/gunman2.png') no-repeat;
     background-size: cover;
 }
 
 .fire {
     position: absolute;
     top: 45px;
-    left: 50%;
+    left: 45%;
     right: 50%;
 
     width: 150px;
@@ -129,8 +129,8 @@
     left: 43%;
 
     width: 200px;
-    height: 75px;
-    padding-top: 35px;
+    height: 85px;
+    padding-top: 10px;
 
     background-color: #fff;
     font-size: 32px;

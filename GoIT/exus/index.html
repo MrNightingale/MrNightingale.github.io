@@ -100,5 +100,38 @@
 
 </div>
 
+<div class="map"></div>
+
+<!-- Google Maps JS API -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!-- GMaps Library -->
+<script src="js/gmaps.js"></script>
+
+<script>
+    /* Map Object */
+    var mapObj = new GMaps({
+        el: '.map',
+        lat: 48.857,
+        lng: 2.295,
+        zoom: 16
+    });
+
+    GMaps.geolocate({
+        success: function(position) {
+            mapObj.setCenter(position.coords.latitude, position.coords.longitude);
+        },
+        error: function(error) {
+            alert('Geolocation failed: '+error.message);
+        },
+        not_supported: function() {
+            alert("Your browser does not support geolocation");
+        },
+        always: function() {
+            alert("Done!");
+        }
+    });
+</script>
+
 </body>
 </html>

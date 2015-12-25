@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869f043-34d2-47d0-b0a1-6f234b932376" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js" afterPath="$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/death.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/fire.m4a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/intro.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/shot.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/trooper2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/media/win.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/gunman.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/exus/index.html" afterPath="$PROJECT_DIR$/GoIT/exus/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/exus/css/style.css" afterPath="$PROJECT_DIR$/GoIT/exus/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" afterPath="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VladyslavSoloviov.github.io.iws" />
@@ -26,34 +46,14 @@
     <favorites_list name="VladyslavSoloviov.github.io" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4705046">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.807693" vertical-offset="323" max-vertical-offset="2453">
-                  <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="todo.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3618">
-                  <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5964912" vertical-offset="0" max-vertical-offset="1620">
-                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.55438596" vertical-offset="121" max-vertical-offset="1552">
+                  <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -63,21 +63,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="cart.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/cart.js">
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="2887">
-                  <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4383">
+                  <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="localstorage.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/localstorage.js">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="476">
-                  <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.03274854" vertical-offset="227" max-vertical-offset="1569">
+                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2414">
+                  <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -99,25 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task1.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task2.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task3.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task1_opt.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task4.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task5.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task6.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task2_opt.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson14/task3_opt.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_2.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson15/codewars_7q_5.js" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson16/elementsSearch.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson16/tree.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson16/task1.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task1.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task2.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task3.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task4.html" />
-        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task5.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task6.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task9.html" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson17/task10_table sort.html" />
@@ -149,7 +140,26 @@
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/js/gunman.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/css/custom.css" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/localstorage.js" />
+        <option value="$PROJECT_DIR$/GoIT/exus/gmaps.js" />
+        <option value="$PROJECT_DIR$/GoIT/exus/js/gmaps.js" />
+        <option value="$PROJECT_DIR$/GoIT/exus/css/style.css" />
+        <option value="$PROJECT_DIR$/GoIT/exus/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/.babelrc" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/carts.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/1.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/exam/js/jquery.animateSprite.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/exam/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/exam/js/gunman.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/cart.js" />
         <option value="$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/css/style.css" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/exam2/js/index.js" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html" />
+        <option value="$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js" />
       </list>
     </option>
   </component>
@@ -167,6 +177,9 @@
             <id />
           </State>
           <State>
+            <id>File Watchers</id>
+          </State>
+          <State>
             <id>JavaScript</id>
           </State>
           <State>
@@ -181,7 +194,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>CoffeeScript</id>
+            <id>TaskInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -213,7 +226,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,7 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson23" />
+              <option name="myItemId" value="WildTrooper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,11 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson23" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="WildTrooper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -328,11 +336,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson23" />
+              <option name="myItemId" value="WildTrooper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VladyslavSoloviov.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WildTrooper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,7 +418,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson20" />
+              <option name="myItemId" value="exam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,14 +446,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="settings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GoIT/javascript/home/lesson23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercises" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="239" />
@@ -437,21 +476,24 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson20" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home" />
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson23\assets\js" />
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson20" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson23" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\exam\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home" />
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson23\assets\js" />
+      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\exus\js" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson20" />
       <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\class\lesson18" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home" />
-      <recent name="P:\home\VladyslavSoloviov.github.io\GoIT\javascript\home\lesson13" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.reduce.js">
@@ -822,7 +864,11 @@
       <created>1450216840973</created>
       <updated>1450216840973</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="lesson20 hw add sort items function in the ToDo list">
+      <created>1450385198970</created>
+      <updated>1450385198970</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -849,26 +895,47 @@
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3410341" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15138721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2074789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31990793" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48184818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3410341" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31990793" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2074789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48184818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -886,7 +953,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fix lesson7 codewars3 task" />
     <MESSAGE value="lesson10 hw (tasks 1-6 and codewars 7q  1-3 tasks)" />
     <MESSAGE value="lesson10 hw" />
     <MESSAGE value="add lesson9 hw tasks 1, 2 and codewars1" />
@@ -911,14 +977,15 @@
     <MESSAGE value="lesson22 classwork and homework" />
     <MESSAGE value="add js exam" />
     <MESSAGE value="exus project" />
-    <option name="LAST_COMMIT_MESSAGE" value="exus project" />
+    <MESSAGE value="lesson20 hw add sort items function in the ToDo list" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson20 hw add sort items function in the ToDo list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -934,87 +1001,11 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson16/task2.html">
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="2130">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson16/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0800744" vertical-offset="1095" max-vertical-offset="2437">
-          <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task2_removePolyfill.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2" vertical-offset="0" max-vertical-offset="1834">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.909091" vertical-offset="0" max-vertical-offset="1520">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5005917" vertical-offset="252" max-vertical-offset="1925">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6643275" vertical-offset="299" max-vertical-offset="1705">
-          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5169591" vertical-offset="0" max-vertical-offset="1552">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.153847" vertical-offset="1863" max-vertical-offset="3501">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5224586" vertical-offset="0" max-vertical-offset="1262">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05964912" vertical-offset="0" max-vertical-offset="1416">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.857142" vertical-offset="0" max-vertical-offset="1522">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson17/task13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3950178" vertical-offset="595" max-vertical-offset="1974">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2414">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,34 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2760234" vertical-offset="104" max-vertical-offset="1552">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/exus/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2922">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2363">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43473327" vertical-offset="1810" max-vertical-offset="3244">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/class/lesson23/assets/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2888">
@@ -1238,42 +1201,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/localstorage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1306">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="2888">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="323" max-vertical-offset="2453">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3618">
+        <state vertical-scroll-proportion="0.48240635" vertical-offset="0" max-vertical-offset="3618">
           <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson20/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5964912" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="1620">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/exus/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6367764" vertical-offset="1479" max-vertical-offset="3023">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/exus/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35321638" vertical-offset="1653" max-vertical-offset="3252">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/exus/js/gmaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8490352" vertical-offset="0" max-vertical-offset="40423">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33801168" vertical-offset="0" max-vertical-offset="2487">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7911464" vertical-offset="1785" max-vertical-offset="3805">
+          <caret line="145" column="59" selection-start-line="145" selection-start-column="59" selection-end-line="145" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/lesson23/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58229285" vertical-offset="422" max-vertical-offset="8701">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/images/gunman2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4367">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="3939">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/js/gunman.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44381386" vertical-offset="2057" max-vertical-offset="3550">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3244">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="4384">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/exam/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03274854" vertical-offset="227" max-vertical-offset="1569">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoIT/javascript/home/WildTrooper/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55438596" vertical-offset="121" max-vertical-offset="1552">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>

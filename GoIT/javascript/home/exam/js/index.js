@@ -17,7 +17,6 @@ var audio = page.querySelector('.js-audio');
 var pcTime = 0.8;
 
 var spanPCTime = document.createElement('span');
-spanPCTime.innerHTML = pcTime.toFixed(3) + ' sec';
 
 var headerPc = page.querySelector('.header__pc');
 headerPc.appendChild(spanPCTime);
@@ -27,47 +26,72 @@ var spanUserTime = document.createElement('span');
 
 var headerUser = page.querySelector('.header__user');
 
-// Show GunMan
-setTimeout(function() {
-    game.appendChild(gunMan);
-}, 1000);
+// Gunman Start BGPosition and step
+var gmPos = 0;
+var gmPosStep = 300;
 
-//  First Step
-setTimeout(function() {
-    gunMan.style.right = '125px';
-    gunMan.style.backgroundPosition = '-125px';
-}, 2000);
+animateGunman();
 
-//  Second Step
-setTimeout(function() {
-    gunMan.style.right = '250px';
-    gunMan.style.backgroundPosition = '-250px';
-}, 3000);
+function animateGunman() {
 
-//  Center
-setTimeout(function() {
-    gunMan.style.right = '275px';
-    gunMan.style.backgroundPosition = '-387px';
-}, 4000);
+    // Show GunMan
+    setTimeout(function() {
+        audio.src = 'media/intro.m4a';
+        spanPCTime.innerHTML = pcTime.toFixed(3) + ' sec';
+        game.appendChild(gunMan);
+        gunMan.style.backgroundImage = 'url(images/gunman' + randomGunman() + '.png)';
+        gunMan.style.right = '0';
+        gunMan.style.width = '160px';
+        gmPos = 0;
+        gunMan.style.backgroundPosition = gmPos + 'px';
+    }, 1000);
+
+    //  First Step
+    setTimeout(function() {
+        gunMan.style.right = '125px';
+        gmPos -= gmPosStep;
+        gunMan.style.backgroundPosition = gmPos + 'px';
+    }, 2000);
+
+    //  Second Step
+    setTimeout(function() {
+        gunMan.style.right = '250px';
+        gmPos -= gmPosStep;
+        gunMan.style.backgroundPosition = gmPos + 'px';
+    }, 3000);
+
+    //  Center
+    setTimeout(function() {
+        gunMan.style.right = '275px';
+        gmPos -= gmPosStep;
+        gunMan.style.backgroundPosition = gmPos + 'px';
+    }, 4000);
+
+}
 
 var startTime;
 
-// Fire
-setTimeout(function() {
+showFire();
 
-    game.appendChild(fire);
+function showFire() {
 
-    gunMan.style.backgroundPosition = '-523px';
+    // Fire
+    setTimeout(function() {
 
-    audio.src = 'media/fire.m4a';
+        game.appendChild(fire);
 
-    gunMan.addEventListener('click', shoot);
+        gmPos -= gmPosStep;
+        gunMan.style.backgroundPosition = gmPos + 'px';
 
-    startTime = new Date();
+        audio.src = 'media/fire.m4a';
 
-}, 5000);
+        gunMan.addEventListener('click', shoot);
 
+        startTime = new Date();
 
+    }, 5000);
+
+}
 
 // Win and Loose windows
 var overlayWin = document.createElement('div');
@@ -85,6 +109,10 @@ var btnPlay = document.createElement('button');
 btnPlay.className = 'btn-play';
 btnPlay.innerHTML = 'Play again <i class="fa fa-repeat"></i>';
 
+// Reward
+var rewardValue = 0;
+var reward = page.querySelector('.js-reward');
+
 btnPlay.addEventListener('click', again);
 
 function shoot() {
@@ -100,25 +128,57 @@ function shoot() {
         audio.src = 'media/win.m4a';
 
         gunMan.style.right = '170px';
-        gunMan.style.width = '235px';
-        gunMan.style.backgroundPosition = '-650px';
+        gunMan.style.width = '275px';
+        gmPos -= gmPosStep;
+        gunMan.style.backgroundPosition = gmPos + 'px';
 
         page.appendChild(overlayWin);
 
+        resInfo.style.height = '75px';
+        resInfo.style.paddingTop = '35px';
         resInfo.innerHTML = 'winner!';
         page.appendChild(resInfo);
 
-        page.appendChild(btnPlay);
+        rewardValue += 100;
+
+        reward.innerHTML = rewardValue;
+
+        // New round
+        setTimeout(function() {
+
+            pcTime -= 0.1;
+
+            spanPCTime.innerHTML = '';
+
+            overlayWin.parentNode.removeChild(overlayWin);
+
+            resInfo.parentNode.removeChild(resInfo);
+
+            fire.parentNode.removeChild(fire);
+
+            gunMan.parentNode.removeChild(gunMan);
+
+            animateGunman();
+
+            showFire();
+
+       }, 1500);
 
     } else {
 
         audio.src = 'media/death.m4a';
 
-        gunMan.style.backgroundPosition = '-895px';
+        gmPos -= gmPosStep*2;
+        gunMan.style.backgroundPosition = gmPos + 'px';
 
         page.appendChild(overlayLoose);
 
-        resInfo.innerHTML = 'loser!';
+        resInfo.style.height = '85px';
+        resInfo.style.paddingTop = '10px';
+        resInfo.style.width = '300px';
+        resInfo.innerHTML = 'You lose! ' +
+            'Your reward: ' + rewardValue + ' $';
+
         page.appendChild(resInfo);
 
         page.appendChild(resInfo);
@@ -130,6 +190,14 @@ function shoot() {
     spanUserTime.innerHTML = userTime.toFixed(3) + ' sec';
 
     headerUser.appendChild(spanUserTime);
+
+}
+
+function randomGunman() {
+
+    var gunmans = [1, 2];
+
+    return Math.ceil(Math.random() * gunmans.length);
 
 }
 

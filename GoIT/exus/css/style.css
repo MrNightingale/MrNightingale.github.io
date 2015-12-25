@@ -118,3 +118,9 @@
     float: left;
     margin: -12px 0 0 -28px;
 }
+
+/* Map */
+.map {
+    width: 700px;
+    height: 400px;
+}
