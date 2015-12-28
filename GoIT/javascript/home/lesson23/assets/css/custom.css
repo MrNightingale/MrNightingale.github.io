@@ -1,0 +1,461 @@
+/*-----------------------------------
+    General Styles
+-----------------------------------*/
+
+body {
+    font-size: 14px;
+
+    background-color: #f2f6f9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.cart__item_tmpl {
+    display: none;
+}
+
+/*-----------------------------------
+    Navbar
+-----------------------------------*/
+
+.minicart {
+    position: relative;
+
+    width: 40px;
+    height: 50px;
+    padding-right: 32px;
+
+    background: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -156px 11px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 15px;
+
+    border-radius: 0;
+    background-color: #4ea6bc;
+}
+
+.navbar-brand {
+    font-family: Open Sans, sans-serif;
+
+    padding-left: 32px;
+
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.orders-quantity {
+    position: absolute;
+    left: 22px;
+
+    width: 20px;
+
+    background-color: #f06953;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*-----------------------------------
+    Breadcrumb
+-----------------------------------*/
+
+.breadcrumb > .active a {
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #468595;
+}
+
+.breadcrumb li a {
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #b3d4dc;
+}
+
+.breadcrumb > li + li:before {
+    content: '\00BB';
+}
+
+.breadcrumb {
+    margin-bottom: 100px;
+
+    background-color: #ffffff;
+}
+
+.breadcrumbBox {
+    height: 100px;
+    margin-bottom: 100px;
+    padding-top: 32px;
+
+    background-color: #ffffff;
+}
+
+/*-----------------------------------
+    Main
+-----------------------------------*/
+
+.container.text-center {
+    padding: 0 32px;
+}
+
+/*-----------------------------------
+    Logo and description
+----------------------------------- */
+
+.col-md-5.col-sm-12 {
+    padding: 0;
+}
+
+.col-md-5.col-sm-12 h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    text-align: left;
+
+    color: #595c5f;
+}
+
+.col-md-5.col-sm-12 p {
+    line-height: 1.5;
+
+    max-width: 400px;
+
+    text-align: justify;
+
+    color: #898e92;
+}
+
+.bigcart {
+    width: 155px;
+    height: 120px;
+    margin: 0 0 40px 60px;
+
+    background: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 11px;
+}
+
+/*-----------------------------------
+    Cart items list
+-----------------------------------*/
+
+.col-md-7.col-sm-12 {
+    margin-bottom: 72px;
+    padding-left: 50px;
+}
+
+.row {
+    margin-bottom: 11px;
+    padding-bottom: 0;
+    padding-left: 15px;
+
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 #e1e5e8;
+}
+
+.row span {
+    padding: 20px 0 6px 0;
+}
+
+/* Column Captions */
+
+.columnCaptions {
+    font-size: 12px;
+
+    padding: 0;
+
+    text-transform: uppercase;
+
+    color: #7e93a7;
+    background-color: #f2f6f9;
+    box-shadow: 0 0 0;
+}
+
+.columnCaptions span:first-child {
+    padding-left: 8px;
+}
+
+.columnCaptions span {
+    padding: 0 21px 0 0;
+}
+
+.columnCaptions span:last-child {
+    float: right;
+
+    padding-right: 72px;
+}
+
+/* Items */
+
+.itemName {
+    font-size: 16px;
+    font-weight: bold;
+
+    float: left;
+
+    padding-left: 25px;
+
+    color: #727578;
+}
+
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+
+    float: left;
+
+    width: 42px;
+    padding-left: 7px;
+
+    color: #4ea6bc;
+}
+
+.popbtn {
+    float: right;
+
+    width: 40px;
+    height: 63px;
+    margin-left: 25px;
+    padding: 32px 0 0 14px !important;
+
+    cursor: pointer;
+
+    background-color: #e6edf3;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+
+    border-top: 6px solid #858e97;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+
+    float: right;
+
+    color: #f06953;
+}
+
+/* Totals */
+
+.totals {
+    background-color: #f2f6f9;
+}
+
+.totals span {
+    padding: 40px 15px 40px 0;
+}
+
+.totals .price {
+    float: left;
+}
+
+.totals .itemName {
+    margin-top: 1px;
+}
+
+.totals .order {
+    float: right;
+
+    margin-top: 40px;
+    padding: 0;
+    padding-left: 5px;
+
+    cursor: pointer;
+}
+
+.order a {
+    font-weight: bold;
+
+    padding: 20px 30px;
+
+    color: #fbfffa;
+    border-radius: 2px;
+    background-color: #f08573;
+}
+
+/* Popovers */
+
+.popover {
+    border: 0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.popover.bottom {
+    margin-top: -9px;
+}
+
+.glyphicon {
+    font-size: 24px;
+
+    width: 24px;
+    padding: 0;
+}
+
+.glyphicon-pencil {
+    margin: 7px 12px 7px 10px;
+
+    color: #858e97;
+}
+
+.glyphicon-remove {
+    margin-right: 10px;
+
+    color: #f06953;
+}
+
+/*-----------------------------------
+    Media Queries
+----------------------------------- */
+
+/* Tablet size */
+
+@media (max-width: 992px) {
+    .container.text-center {
+        padding: 0 15px;
+    }
+
+    .breadcrumb {
+        margin-bottom: 32px;
+    }
+
+    .bigcart {
+        margin: 0 auto 40px auto;
+    }
+
+    .col-md-5.col-sm-12 h1 {
+        text-align: center;
+    }
+
+    .col-md-5.col-sm-12 p {
+        margin: 0 auto 64px auto;
+
+        text-align: justify;
+    }
+
+    .col-md-7.col-sm-12 {
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+
+    .totals {
+        box-shadow: 0 0 0;
+    }
+}
+
+/* Mobile device size */
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .minicart {
+        margin-right: -1px;
+        padding-right: 0;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+
+    .breadcrumbBox {
+        height: 80px;
+        padding-top: 21px;
+    }
+
+    .col-md-5.col-sm-12 p {
+        max-width: 300px;
+    }
+
+    .col-md-7.col-sm-12 {
+        margin-bottom: 32px;
+        padding-right: 15px;
+        padding-left: 0;
+    }
+
+    .col-md-7.col-sm-12 ul {
+        padding-left: 15px;
+    }
+
+    .columnCaptions span {
+        padding: 0 21px 0 0;
+    }
+
+    .columnCaptions span:last-child {
+        float: right;
+
+        padding-right: 42px;
+    }
+
+    .row {
+        padding-bottom: 10px;
+    }
+
+    .quantity {
+        width: 23px;
+        padding-right: 40px !important;
+    }
+
+    .popbtn {
+        position: absolute;
+        right: 0;
+
+        height: 40px;
+
+        background-color: white;
+    }
+
+    .price {
+        position: absolute;
+        right: 42px;
+    }
+
+    .totals {
+        padding: 0;
+    }
+
+    .totals .price {
+        position: static;
+    }
+
+    /* Change Bootstrap's default popover to make it look nice on a mobile device */
+    .popover.bottom > .arrow {
+        right: 5px;
+        left: auto;
+
+        margin-left: 0;
+    }
+
+    .popover.bottom {
+        margin-top: 7px;
+        margin-left: -40px;
+    }
+}
