@@ -43,7 +43,7 @@ function animateTrooper() {
 
         trooper.style.backgroundImage = 'url(images/trooper' + randomTrooper() + '.png)';
         trooper.style.right = '-75px';
-        trooper.style.width = '230px';
+        trooper.style.width = '260px';
         trPos = 0;
         trooper.style.backgroundPosition = trPos + 'px';
 
@@ -89,7 +89,7 @@ function showFire() {
         game.appendChild(fire);
 
         trooper.style.right = '250px';
-        trooper.style.width = '150px';
+        trooper.style.width = '170px';
         trPos -= trPosStep;
         trooper.style.backgroundPosition = trPos + 'px';
 
@@ -183,7 +183,7 @@ function shoot() {
 
 function randomTrooper() {
 
-    var troopers = [1, 2];
+    var troopers = [1, 2, 3];
 
     return Math.ceil(Math.random() * troopers.length);
 
