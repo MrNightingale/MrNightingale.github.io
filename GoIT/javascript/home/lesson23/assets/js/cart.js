@@ -1,5 +1,6 @@
 $(function () {
     function Cart () {
+
         var __self = this;
 
         this.lsFieldId = 'cart';
@@ -25,11 +26,11 @@ $(function () {
     }
 
     Cart.prototype.init = function () {
-        console.log('init');
 
         window.ls.initField(this.lsFieldId);
 
         this.viewCart();
+
     };
 
     Cart.prototype.updateStorage = function () {
@@ -44,8 +45,6 @@ $(function () {
     };
 
     Cart.prototype.getCartSize = function () {
-        console.log(this.getCartItems.length);
-
         return this.getCartItems().length;
     };
 
@@ -73,27 +72,13 @@ $(function () {
     };
 
     Cart.prototype.viewCart = function () {
-        // TODO: make viewCartSize
         this.getCartSize();
 
         this.viewTotalPrice();
 
         this.viewCartList();
 
-        this.makeOrder();
-
         this.cleanCart();
-    };
-
-    Cart.prototype.makeOrder = function() {
-
-        $('.cart__make-order').on('click', showOrder);
-
-        var __self = this;
-
-        function showOrder() {
-            alert(("Вы заказали " + __self.getTotalQty() + " товаров на сумму: $" + __self.getTotalPrice()));
-        }
     };
 
     Cart.prototype.cleanCart = function() {
@@ -104,11 +89,21 @@ $(function () {
 
         function cleanOrder() {
 
+            alert(("Вы заказали " + __self.getTotalQty() + " товаров на сумму: $" + __self.getTotalPrice()));
+
             $('.cart .cart__item').remove();
 
             $('.cart .totals .price').html('');
 
+            window.ls.clearField(__self.lsFieldId);
+
+            window.localStorage.clear();
+
+            __self.cartArray.length = 0;
+
+            $('.orders-quantity').text(__self.cartArray.length);
         }
+
     };
 
     Cart.prototype.viewCartList = function () {
@@ -143,14 +138,21 @@ $(function () {
 
     Cart.prototype.addToCart = function (item) {
 
-//        for (var i = 0; i < this.cartArray.length; i++) {
-//            if (item.name === this.cartArray[i].name) {
-//                this.cartArray[i].qty = +this.cartArray[i].qty + 1;
-//                this.cartArray[i].price += item.price;
-//                this.updateStorage();
-//                this.viewCart();
-//            }
-//        }
+        for (var i = 0; i < this.cartArray.length; i++) {
+
+            if (item.name === this.cartArray[i].name) {
+
+                $('.cart__item').remove();
+
+                this.cartArray[i].qty = +this.cartArray[i].qty + 1;
+
+                this.updateStorage();
+                this.viewCart();
+
+                return;
+            }
+
+        }
 
         this.cartArray.push(item);
 
