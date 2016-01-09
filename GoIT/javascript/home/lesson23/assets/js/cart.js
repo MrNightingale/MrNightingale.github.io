@@ -31,6 +31,7 @@ $(function () {
 
         this.viewCart();
 
+        this.deleteItem();
     };
 
     Cart.prototype.updateStorage = function () {
@@ -79,6 +80,8 @@ $(function () {
         this.viewCartList();
 
         this.cleanCart();
+
+        this.showPopup();
     };
 
     Cart.prototype.cleanCart = function() {
@@ -163,6 +166,34 @@ $(function () {
 
     Cart.prototype.viewTotalPrice = function () {
         this.domElems.totalPrice.text('$' + this.getTotalPrice());
+    };
+
+    Cart.prototype.showPopup = function () {
+
+        $('.arrow').click(function() {
+            $('#popover').toggle();
+        });
+
+    };
+
+    Cart.prototype.deleteItem = function() {
+        var __self = this;
+
+        $('.delete-cross').click(function() {
+            $('#popover').hide();
+
+            $('.cart .cart__item').remove();
+
+            $('.cart .totals .price').html('');
+
+            window.ls.clearField(__self.lsFieldId);
+
+            window.localStorage.clear();
+
+            __self.cartArray.length = 0;
+
+            $('.orders-quantity').text(__self.cartArray.length);
+        });
     };
 
     window.cart = new Cart();

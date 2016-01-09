@@ -300,12 +300,45 @@ a:hover {
 }
 
 /* Popovers */
+.cart {
+    position: relative;
+}
 
-.popover {
+#popover {
+    display: none;
+
+    position: absolute;
+    top: 80px;
+    right: -20px;
+
     border: 0;
     border-radius: 3px;
     background-color: #ffffff;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.popover-wrapper:before {
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent rgba(0, 0, 0, .2) transparent;
+}
+
+.popover-wrapper:after {
+    position: absolute;
+    top: -9px;
+    left: 35px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #fff transparent;
 }
 
 .popover.bottom {
