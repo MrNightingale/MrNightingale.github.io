@@ -1,0 +1,92 @@
+.diagnosys {
+  font-family: $arial;
+  margin-bottom: 35px;
+}
+
+.diagnosys__header {
+  text-align: center;
+  margin: 0;
+  color: $brown;
+  font-weight: normal;
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+
+.diagnosys__expert {
+  font-weight: bold;
+}
+
+.diagnosys__container {
+  background: url('../images/diagnosys.jpg') bottom no-repeat;
+  height: 244px;
+  min-width: 980px;
+  white-space: nowrap;
+}
+
+.diagnosys__left,
+.diagnosys__right {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  margin: 15px 1.6% 0 26.6%;
+  width: 21.8%;
+  background-color: #fff;
+  border: 1px solid #787878;
+}
+
+.diagnosys__wrapper {
+  padding: 20px 0 20px 15px;
+}
+
+.diagnosys__expert-info {
+  color: $brown;
+  margin: 0;
+  font-family: $futura;
+  font-size: 16px;
+}
+
+.diagnosys__time {
+  color: $purple;
+  text-transform: uppercase;
+}
+
+.diagnosys__text {
+  color: $brown;
+  margin: 0 0 12px 0;
+  padding: 15px 0;
+}
+
+.diagnosys__link {
+  position: relative;
+  color: #fff;
+  background-color: #8b9620;
+  text-decoration: none;
+  padding: 12px 25px 10px 12px;
+  font-size: 14px;
+}
+
+.diagnosys__link:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 6px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.diagnosys__link:hover {
+  background-color: $purple;
+}
+
+.diagnosys__info {
+  color: $brown;
+  padding-bottom: 30px;
+}
+
+.diagnosys__consult {
+  color: $purple;
+  font-weight: bold;
+}

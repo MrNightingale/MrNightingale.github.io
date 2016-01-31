@@ -1,0 +1,53 @@
+.care {
+  font-family: $arial;
+  margin-bottom: 30px;
+}
+
+.care__main-header {
+  color: $brown;
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.care__personal {
+  font-weight: bold;
+}
+
+.care__container {
+  min-width: 980px;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.care__block {
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  width: 24.8%;
+  border: 1px solid #9da98c;
+  margin-bottom: 25px;
+}
+
+.care__header {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  z-index: 2;
+  width: 225px;
+  font-size: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+.care__header-color {
+  color: $brown;
+  top: 5px;
+  left: 10px;
+  letter-spacing: -1px;
+}
+
+

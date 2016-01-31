@@ -1,0 +1,37 @@
+.nav {
+  margin-bottom: 35px;
+  font-family: $arial;
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  width: 326px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #8b970a;
+  border-right: 1px solid #61472c;
+}
+
+.nav__item:last-child {
+  border-right: none;
+}
+
+.nav__link {
+  display: block;
+  padding: 15px 0 10px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav__item .nav__link:hover {
+  background-color: $purple;
+}

@@ -1,0 +1,28 @@
+/* Fonts */
+$arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+$arial-narrow: 'Arial Narrow', Arial, sans-serif;
+
+$futura: FuturaMediumC, Futura, 'Trebuchet MS', Arial, sans-serif;;
+
+/* Colors */
+$brown: #61472c;
+
+$purple: #b6003d;
+
+.page {
+  min-width: 1020px;
+}
+
+.page__wrapper {
+  min-width: 980px;
+  width: 980px;
+  margin: 0 auto;
+}
+
+@import 'header';
+@import 'nav';
+@import 'diagnosys';
+@import 'care';
+@import 'logo';
+@import 'video';

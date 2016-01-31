@@ -1,0 +1,21 @@
+.logo {
+  background-color: #8a9620;
+  padding: 10px 0 13px;
+  margin-bottom: 30px;
+}
+
+.logo__link {
+  background: url('../images/logo.jpg') bottom no-repeat;
+  width: 231px;
+  height: 46px;
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.logo__text {
+  color: #fff;
+  display: inline-block;
+  padding-left: 405px;
+  margin: 0;
+  font-size: 14px;
+}
