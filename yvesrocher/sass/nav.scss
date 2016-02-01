@@ -1,5 +1,5 @@
 .nav {
-  margin-bottom: 35px;
+  margin-bottom: 80px;
   font-family: $arial;
 }
 
@@ -9,6 +9,8 @@
   list-style-type: none;
   white-space: nowrap;
   font-size: 0;
+//  display: inline-block;
+  float: left;
 }
 
 .nav__item {
