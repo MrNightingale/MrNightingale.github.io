@@ -1,0 +1,4 @@
+
+'use strict';var buttonWorks=new $('.works .work');var buttonClode=new $('.works .work .window .buttonClose');var body=new $(document.body);buttonWorks.on('click',showSlider);buttonClode.on('click',hideSlider);function showSlider(attributes,event){var el=new $(event.target);if(!el.hasClass('.b-window')&&el.parent('.b-window').length==0){if(!el.hasClass('work')){el=el.parent('.work');}
+var slider=el.find('.b-window');body.addClass('active');slider.style({display:'block'});}}
+function hideSlider(attributes,event){body.removeClass('active');var slider=new $(event.target).parent('.b-window');slider.style({display:'none'});}

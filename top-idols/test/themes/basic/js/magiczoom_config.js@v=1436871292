@@ -1,0 +1,10 @@
+MagicZoom.options = {
+	clickToActivate: true,
+	hint: false,
+	zoomWidth: $('.product-w').width() - 410,
+	clickToDeactivate: true,
+	zoomPosition: 'left',
+	zoomHeight: 490,
+	zoomAlign: 'center',
+	zoomDistance: 0
+};

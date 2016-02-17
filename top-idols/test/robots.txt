@@ -1,0 +1,4 @@
+Sitemap:  http://asfalt-kachestvo.ru/sitemap.xml
+User-agent: *
+Disallow: /qa/
+host: asfalt-kachestvo.ru
