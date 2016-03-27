@@ -3,7 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>One HOUR - сервис услуг №1 в городе Славутич</title>
-    <link rel="stylesheet" href="styles/style.css"/>
+	<link rel="stylesheet" href="build/normalize.min.css"/>
+    <link rel="stylesheet" href="build/style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
@@ -25,12 +26,12 @@
         <h1 id="about"><span>Мы специалисты в</span><br/>
             оказании сервисных услуг в городе Славутич</h1>
         <h2>Наши профессионалы помогут Вам переустановить Windows, посидеть с ребенком и отремонтировать сантехнику.</h2>
-        <input type="button" value="Заказать услугу"/>
+        <input type="submit" value="Заказать услугу" onclick="window.location='#contact';"/>
     </div>
 </div>
 <div class="portfolio">
     <div class="portfolio-wrapper">
-        <h1 class="portfolio-header" id="portfolio">Lorem Ipsum is simply dummy text of the printing</h1>
+        <h1 class="portfolio-header" id="services">Lorem Ipsum is simply dummy text of the printing</h1>
         <div class="portfolio-block-wrapper">
             <div class="portfolio-block-left">
                 <img src="images/portfolio-protect.png" alt="Protect"/>
@@ -117,7 +118,7 @@
 </div>
 <div class="testimonials">
     <div class="testimonials-wrapper">
-        <h1><span>What </span>client says</h1>
+        <h1 id="testimonials"><span>What </span>client says</h1>
         <div class="customers">
             <div class="customer-left">
         <img src="images/staciya-trollie.png" alt="Staciya Trollie"/>
