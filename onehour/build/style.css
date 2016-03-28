@@ -94,8 +94,8 @@ body {
     cursor: pointer;
 }
 .banner input:hover {
-    color: #000;
-    border-color: #000;
+    color: #008329;
+    background-color: #fff;
 }
 /* Portfolio */
 .portfolio-wrapper {
@@ -391,8 +391,10 @@ div.price p {
     content: '';
     float: left;
     margin: 35px 0 0 -26px;
-    border: 13px solid #15191f;
+    border-top: 13px solid #15191f;
+    border-bottom: 13px solid #15191f;
     border-right: 13px solid #f7f7f7;
+    border-left: 13px solid #15191f;
 }
 .testimonials-header {
     padding: 8px 15px 9px 15px;
