@@ -1,6 +1,19 @@
 .page {
-    width: 1024px;
+    width: 600px;
     margin: 0 auto;
+    font-family: 'Lobster', cursive;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.page__wrapper {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 5%;
+    background: #fff;
+    box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.6);
+}
+
+.header {
+    text-align: center;
 }
 
 .checklist__input {
@@ -12,22 +25,21 @@
 }
 
 .checklist__list {
-    margin: 0 45%;
+    margin: 0 30%;
 }
-
-
-/*checkbox*/
 
 .checklist__checkbox {
     position: absolute;
     clip: rect(0, 0, 0, 0);
 }
 
-.checklist__text {
+.checklist__text,
+.checklist__text-all {
     cursor: pointer;
 }
 
-.checklist__text::before {
+.checklist__text::before,
+.checklist__text-all::before {
     content: ' ';
     display: inline-block;
     width: 17px;
@@ -38,8 +50,14 @@
     margin-right: 15px;
 }
 
-.checklist__checkbox:checked + .checklist__text::before {
+.checklist__checkbox:checked + .checklist__text::before,
+.checklist__checkbox:checked + .checklist__text-all::before {
     background-position: 0 -17px;
+}
+
+.checklist__checkbox--checked {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
 }
 
 .checklist__delete {
@@ -54,5 +72,19 @@
     position: relative;
     top: 3px;
     left: 5px;
+    cursor: pointer;
 }
 
+.checklist__cross-all {
+    margin: 2% 30%;
+    color: #f00;
+}
+
+.checklist__delete-all {
+    margin: 5% 35%;
+    padding: 1%;
+
+    background: #f00;
+    border: 1px solid #f00;
+    color: #fff;
+}

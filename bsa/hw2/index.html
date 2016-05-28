@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <title>Checklist</title>
     <link rel="stylesheet" href="css/style.css"/>
-
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>
 <body class="page">
 
-    <div class="checklist">
+    <div class="page__wrapper">
 
-        <input type="text" class="checklist__input" id="product"/>
-        <label for="product"></label>
+        <h1 class="header">Shopping List</h1>
 
-        <div class="checklist__list">
-            <div class="checklist__wrapper">
-                <input type="checkbox" id="cch1" class="checklist__checkbox">
-                <label class="checklist__text" for="cch1">label 1</label>
-                <div class="checklist__delete"></div>
+        <div class="checklist">
+
+            <input type="text" class="checklist__input" id="product"/>
+            <label for="product"></label>
+
+            <div class="checklist__list"></div>
+
+            <div class="checklist__cross-all">
+                <input type="checkbox" id="cross-all" class="checklist__checkbox">
+                <label class="checklist__text-all" for="cross-all">Cross All Products</label>
             </div>
+
+            <button class="checklist__delete-all">Delete Crossed Products</button>
+
         </div>
 
     </div>
 
-    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
