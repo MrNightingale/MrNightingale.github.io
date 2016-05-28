@@ -1,0 +1,58 @@
+.page {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.checklist__input {
+    margin: 25px auto;
+    display: block;
+    width: 50%;
+    border: 1px solid #f00;
+    height: 25px;
+}
+
+.checklist__list {
+    margin: 0 45%;
+}
+
+
+/*checkbox*/
+
+.checklist__checkbox {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.checklist__text {
+    cursor: pointer;
+}
+
+.checklist__text::before {
+    content: ' ';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url('../img/checkbox.png');
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+}
+
+.checklist__checkbox:checked + .checklist__text::before {
+    background-position: 0 -17px;
+}
+
+.checklist__delete {
+    display: none;
+}
+
+.checklist__wrapper:hover .checklist__delete {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url('../img/delete.png');
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
