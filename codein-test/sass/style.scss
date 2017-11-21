@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import 'mixin';
+
+.page {
+  font-family: 'Lato', sans-serif;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #333;
+
+  &__wrapper {
+    min-width: 300px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @include mobile {
+      padding: 0;
+    }
+  }
+}
+
+.header {
+  width: 100%;
+  height: -webkit-fill-available;
+  min-width: 300px;
+  padding: 50px 0 420px;
+  text-align: center;
+  color: #fff;
+  background: url(../img/header__bg.jpg) 0 0 no-repeat;
+  background-size: cover;
+
+  &__announce {
+    margin: 0 0 0 30%;
+
+    @include mobile {
+      margin: 0;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+  }
+}

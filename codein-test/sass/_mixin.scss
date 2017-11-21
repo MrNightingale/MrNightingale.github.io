@@ -1,0 +1,7 @@
+$break-small: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$break-small - 1px}) {
+    @content;
+  }
+}
